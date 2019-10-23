@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>Fisica1 on Matteo Bianchi personal site and blog</title>
+    <link>https://www.matteobianchi.eu/tags/fisica1/</link>
+    <description>Recent content in Fisica1 on Matteo Bianchi personal site and blog</description>
+    <image>
+      <title>Fisica1 on Matteo Bianchi personal site and blog</title>
+      <link>https://www.matteobianchi.eu/tags/fisica1/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.0.0 (Hugo 0.58.3)</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 22 Oct 2019 15:29:21 UT</lastBuildDate>
+    <atom:link href="https://www.matteobianchi.eu/tags/fisica1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appunti Fisica(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/fisica1/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/fisica1/</guid>
+      <description>Appunti di fisica 1 del corso
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti di fisica 1 del corso
+ ]]></content:encoded>
+    </item>
+  </channel>
+</rss>

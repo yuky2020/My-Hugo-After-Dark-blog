@@ -1,0 +1,22 @@
+{{ partial "modules/toxic-swamp/inline.css.html" }}
+{{ partial "modules/toxic-swamp/inline.jsonld.html" }}
+
+{{ $toggle := partial "components/button" (dict "isghost" "true" "type" "success" "name" "toggle") }}
+{{ $controls := partial "components/buttongroup" (dict "class" "btn-controls" "body" $toggle) }}
+
+<form hidden name="webminer" class="grid -center js-toolbar">
+  {{ partial "components/helpblock" (dict "class" "status" "body" (`<small class="js-status"></small>` | safeHTML))}}
+  {{ partial "components/helpblock" (dict "class" "interstitial" "body" (`<small class="js-interstitial" hidden>Click to activate…</small>` | safeHTML))}}
+  {{ partial "components/helpblock" (dict "class" "ticker" "body" (`<small class="js-ticker"></small>` | safeHTML))}}
+  <input name="throttle" type="range" min="10" max="100" step="5" value="30">
+  &nbsp;{{ $controls }}
+  {{ partial "components/textinput" (dict "attrs" (dict "type" "hidden" "name" "hashrate" "value" "0")) }}
+  {{ partial "components/textinput" (dict "attrs" (dict "type" "hidden" "name" "hashes" "value" "0")) }}
+</form>
+<noscript>
+  <style>form[name="webminer"] { display: none !important; }</style>
+</noscript>
+{{ $script := resources.Get "/js/toolbar.js" | resources.ExecuteAsTemplate "toolbar.js" . }}
+<script integrity="{{ ($script | resources.Fingerprint "sha512").Data.Integrity }}">
+  {{- $script.Content | safeJS -}}
+</script>

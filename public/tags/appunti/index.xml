@@ -1,0 +1,128 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>appunti on Matteo Bianchi personal site and blog</title>
+    <link>https://www.matteobianchi.eu/tags/appunti/</link>
+    <description>Recent content in appunti on Matteo Bianchi personal site and blog</description>
+    <image>
+      <title>appunti on Matteo Bianchi personal site and blog</title>
+      <link>https://www.matteobianchi.eu/tags/appunti/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.0.0 (Hugo 0.58.3)</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 22 Oct 2019 15:29:21 UT</lastBuildDate>
+    <atom:link href="https://www.matteobianchi.eu/tags/appunti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appunti Basi di dati(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/basi-di-dati/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/basi-di-dati/</guid>
+      <description>Appunti del corso di basi di dati dell&amp;rsquo; universita degli studi di roma tre
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di basi di dati dell&amp;rsquo; universita degli studi di roma tre
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti ComputerArquiteture(UCM Madrid) </title>
+      <link>https://www.matteobianchi.eu/appunti/computerarquiteture/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/computerarquiteture/</guid>
+      <description>Appunti del corso di ComputerArquiteture dell&amp;rsquo; universita Complutense De Madrid
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di ComputerArquiteture dell&amp;rsquo; universita Complutense De Madrid
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti del corso di analisi1(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/analisi1/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/analisi1/</guid>
+      <description>Appunti del corso di analisi 1 di Roma tre
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di analisi 1 di Roma tre
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti di Creacion de Empresa(Ucm) </title>
+      <link>https://www.matteobianchi.eu/appunti/creacion-de-empresa/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/creacion-de-empresa/</guid>
+      <description>Appunti del corso di Creacion De empresa dell univeraita complutense de Madrid
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di Creacion De empresa dell univeraita complutense de Madrid
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti di Programmacion Declarativa (Ucm) </title>
+      <link>https://www.matteobianchi.eu/appunti/programmaciondeclarativa/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/programmaciondeclarativa/</guid>
+      <description>Appunti del corso di Programmacion Declarativa dell&amp;rsquo; universita Complutense de Madrid (alcuni Di questi sono in Spagnolo )
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di Programmacion Declarativa dell&amp;rsquo; universita Complutense de Madrid (alcuni Di questi sono in Spagnolo )
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti Di Reti Di calcolatori(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/retidicalcolatori/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/retidicalcolatori/</guid>
+      <description>Appunti del corso di Reti di calcolatori dell&amp;rsquo; universita degli studi di roma tre
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di Reti di calcolatori dell&amp;rsquo; universita degli studi di roma tre
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti Fisica(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/fisica1/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/fisica1/</guid>
+      <description>Appunti di fisica 1 del corso
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti di fisica 1 del corso
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Appunti sistemi informativi sul web(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/sistemiinformativisulweb/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/sistemiinformativisulweb/</guid>
+      <description>Appunti del corso di Sistemi Informativi sul Web dell&amp;rsquo; universita degli studi di roma tre
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di Sistemi Informativi sul Web dell&amp;rsquo; universita degli studi di roma tre
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>AppuntiAps(RomaTre) </title>
+      <link>https://www.matteobianchi.eu/appunti/analisi-e-progettazione-del-software/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/analisi-e-progettazione-del-software/</guid>
+      <description>Appunti del corso di Aps dell&amp;rsquo; universita degli studi di roma tre
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
+      <content:encoded><![CDATA[Appunti del corso di Aps dell&amp;rsquo; universita degli studi di roma tre
+ ]]></content:encoded>
+    </item>
+    <item>
+      <title>Sistemi Operativi(Madrid) </title>
+      <link>https://www.matteobianchi.eu/appunti/sistemi-operativi-madrid/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <guid>https://www.matteobianchi.eu/appunti/sistemi-operativi-madrid/</guid>
+      <description>Appunti di Sistemi operativi corso dell UCM di Madrid
+ </description>
+      <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti </category>
+      <content:encoded><![CDATA[Appunti di Sistemi operativi corso dell UCM di Madrid
+ ]]></content:encoded>
+    </item>
+  </channel>
+</rss>

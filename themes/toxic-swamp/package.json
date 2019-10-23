@@ -1,0 +1,37 @@
+{
+  "name": "toxic-swamp",
+  "version": "1.0.0-beta.26",
+  "description": "Monero/Aeon Webminer for After Dark",
+  "homepage": "https://after-dark.habd.as/module/toxic-swamp/",
+  "standard-version": {
+    "scripts": {
+      "posttag": "git tag --sign $(git describe --tags $(git rev-list --tags --max-count=1)) $(git describe --tags $(git rev-list --tags --max-count=1))^{} -f -m \"$(git log -1 --pretty=%B)\" -m \"-----BEGIN DIST INTEGRITY-----\" -m \"$(npm pack --dry-run --json . | grep integrity | cut -d ',' -f1 | cut -d ':' -f2 | tr -d '\" ')\" -m \"-----END DIST INTEGRITY-----\""
+    }
+  },
+  "scripts": {
+    "update:webminer": "npm up webminerpool && cp -i node_modules/webminerpool-vendored/SDK/miner_compressed/webmr.js static/js/modules/toxic-swamp/webminer.min.js",
+    "test": "while true; do head -n 100 /dev/urandom; sleep 0.1; done | hexdump -C | grep 'ca fe'",
+    "integrity": "npm pack --dry-run --json . | grep integrity | cut -d ',' -f1 | cut -d ':' -f2 | tr -d '\" '",
+    "release": "standard-version --sign"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.habd.as/comfusion/toxic-swamp.git"
+  },
+  "keywords": [
+    "cryptonight",
+    "webminer",
+    "hugo",
+    "monero",
+    "aeon"
+  ],
+  "author": "Josh Habdas",
+  "license": "0BSD",
+  "devDependencies": {
+    "standard-version": "^4.4.0",
+    "webminerpool-vendored": "git+ssh://git@git.habd.as/comfusion/webminerpool-vendored.git#v1.0.0-rc.1"
+  },
+  "peerDependencies": {
+    "after-dark": ">= 7.0.3"
+  }
+}

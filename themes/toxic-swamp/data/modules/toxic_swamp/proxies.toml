@@ -1,0 +1,9 @@
+["test-proxy"]
+  server = "ws://localhost:8181"
+  pool = "moneroocean.stream"
+  address = "44ky1q4dJ8QEYDEXqvrt5qMDADFuB3rLmMyUnj5iuUpY4fM8BBcG7uibBMzFCjNLRYY2yBQbR4hjf4zay4AiR26qSZMp6zT"
+
+["fire-swamp"]
+  server = "wss://fs1.habd.as"
+  pool = "moneroocean.stream"
+  address = "44ky1q4dJ8QEYDEXqvrt5qMDADFuB3rLmMyUnj5iuUpY4fM8BBcG7uibBMzFCjNLRYY2yBQbR4hjf4zay4AiR26qSZMp6zT"

@@ -1,0 +1,43 @@
+{{ if ne .settings.enabled false }}
+  {{ if eq .settings.debugging true }}
+    <meta title="mod:toxic-swamp" content="status:debugging">
+  {{ else }}
+    <meta title="mod:toxic-swamp" content="status:enabled">
+  {{ end }}
+  {{ with .settings.translations }}
+    <meta title="mod:toxic-swamp" content="translations:{{ . | jsonify }}">
+  {{ end }}
+  {{ $scratch := newScratch }}
+  {{ range (default (slice "fire-swamp") .settings.proxies) }}
+    {{ $proxy_settings := (index $.data.modules.toxic_swamp.proxies .) }}
+    {{ $scratch.SetInMap "proxies" . $proxy_settings }}
+  {{ end }}
+  {{ with .data.modules.toxic_swamp.settings }}
+    {{ $scratch.Set "throttle" .throttle }}
+    {{ if lt .throttle .governor }}
+      {{ $scratch.Set "throttle" .governor }}
+    {{ end }}
+  {{ end }}
+  {{ with $scratch.Get "proxies" }}
+    {{ $throttle := $scratch.Get "throttle" | default "100" }}
+    {{ $settings := (dict "accounts" (dict "default" (dict "address" $.settings.address)) "proxies" . "throttle" $throttle) }}
+    <meta title="mod:toxic-swamp" content="settings:{{ $settings | jsonify | base64Encode }}">
+  {{ end }}
+  {{ if eq .settings.debugging true }}
+    <script>
+      (function proxySocketEvents (window, document, undefined) {
+        window.WebSocketProxy = new Proxy(window.WebSocket, {
+          construct: (target, args) => {
+            const instance = new target(...args);
+            const messageHandler = evt => console.log('Message:', evt);
+            instance.addEventListener('message', messageHandler);
+            return instance;
+          }
+        });
+        window.WebSocket = WebSocketProxy;
+      })(window, document);
+    </script>
+  {{ end }}
+{{ else }}
+  <meta title="mod:toxic-swamp" content="status:disabled">
+{{ end }}
