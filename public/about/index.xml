@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>Abouts on Matteo Bianchi personal site and blog</title>
+    <link>https://www.matteobianchi.eu/about/</link>
+    <description>Recent content in Abouts on Matteo Bianchi personal site and blog</description>
+    <image>
+      <title>Abouts on Matteo Bianchi personal site and blog</title>
+      <link>https://www.matteobianchi.eu/about/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.1.0 (Hugo 0.58.3)</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 02 Nov 2019 17:08:16 UT</lastBuildDate>
+    <atom:link href="https://www.matteobianchi.eu/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.matteobianchi.eu/about/aboutme/</link>
+      <guid>https://www.matteobianchi.eu/about/aboutme/</guid>
+      <description>       </description>
+      <content:encoded><![CDATA[       ]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+{{ if ne .settings.enabled false }}
+  <meta title="mod:hall-of-mirrors" content="status:enabled">
+  {{ if .page.Resources.GetMatch "*gallery*" }}
+    {{ partial "modules/hall-of-mirrors/inline.js.html" }}
+    {{ partial "modules/hall-of-mirrors/inline.css.html" }}
+    <script>
+      fetchInject([
+        {{ "modules/hall-of-mirrors/photoswipe.css" | relURL }},
+        {{ "modules/hall-of-mirrors/default-skin.css" | relURL }},
+        {{ "modules/hall-of-mirrors/photoswipe.min.js" | relURL }},
+        {{ "modules/hall-of-mirrors/photoswipe-ui-default.min.js" | relURL }}
+      ]).then(() => {
+        initPhotoSwipeFromDOM('[itemtype="http://schema.org/ImageGallery"]')
+      })
+    </script>
+  {{ end }}
+{{ else }}
+  <meta title="mod:hall-of-mirrors" content="status:disabled">
+{{ end }}

@@ -3,11 +3,14 @@ languageCode = "en-US" # Controls site language
 title = "Matteo Bianchi personal site and blog" # Homepage title and page title suffix
 paginate = 11 # Number of posts to show before paginating
 
+  
 # Controls default theme and theme components
 theme = [
   "toxic-swamp",
   "fractal-forest",
+  "hall-of-mirrors",
   "after-dark"
+  
 ]
 
 disableLiveReload = false # Optional, set true to disable live reload
@@ -20,7 +23,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 
 [params]
-  description = "" # Suggested, controls default description meta
+  description = "Matteo Bianchi Personal Blog " # Suggested, controls default description meta
   author = "" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
   has_cookies = false # Optional, set true to disable cookie disclaimer
@@ -31,6 +34,9 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
     "https://source.unsplash.com/collection/983219/2000x1322"
   ] # Suggested, controls default Open Graph images
 
+[params.hackcss]
+  palette = "dark-grey"
+  
 [params.layout.menu.main]
   hidden = false # Optional, set false or remove to show section menu
 
@@ -41,9 +47,13 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 #for menu showing
 
 [[params.layout.home.section]]
-  type = "post"
+  type = "posts"
   limit = 3
-
+  weight = 1
+  
+[[params.layout.home.section]]
+  type = "appunti"
+  weight = 2
 
 [[menu.main]]
   name = "Home"
@@ -67,7 +77,20 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   weight = 14
   identifier = "appunti"
   url = "/appunti/"
+  
+[[menu.main]]
+  name = "CODE"
+  weight = 18
+  identifier = "code"
+  url = "/code/"
+  
+[[menu.main]]
+  name = "AboutMe"
+  weight = 18
+  identifier = "about"
+  url = "/about/"  
 
+  
 
 
 [outputs]

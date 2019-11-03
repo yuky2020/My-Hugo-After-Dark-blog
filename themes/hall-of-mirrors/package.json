@@ -1,0 +1,42 @@
+{
+  "name": "hall-of-mirrors",
+  "version": "0.2.0",
+  "description": "PhotoSwipe Image Gallery for After Dark.",
+  "author": "Josh Habdas <jhabdas@protonmail.com>",
+  "homepage": "https://after-dark.habd.as/module/hall-of-mirrors/",
+  "standard-version": {
+    "scripts": {
+      "posttag": "git tag --sign $(git describe --tags $(git rev-list --tags --max-count=1)) $(git describe --tags $(git rev-list --tags --max-count=1))^{} -f -m \"$(git log -1 --pretty=%B)\" -m \"-----BEGIN DIST INTEGRITY-----\" -m \"$(npm pack --dry-run --json . | grep integrity | cut -d ',' -f1 | cut -d ':' -f2 | tr -d '\" ')\" -m \"-----END DIST INTEGRITY-----\""
+    }
+  },
+  "scripts": {
+    "copy:photoswipe": "./bin/copy",
+    "clean:css": "npm run clean:css:default-skin && npm run clean:css:photoswipe",
+    "clean:css:default-skin": "cleancss -o static/modules/hall-of-mirrors/default-skin.css static/modules/hall-of-mirrors/default-skin.css",
+    "clean:css:photoswipe": "cleancss -o static/modules/hall-of-mirrors/photoswipe.css static/modules/hall-of-mirrors/photoswipe.css",
+    "test": "while true; do head -n 100 /dev/urandom; sleep 0.1; done | hexdump -C | grep 'ca fe'",
+    "update": "npm run copy:photoswipe && ./bin/urlize && npm run clean:css",
+    "release": "standard-version -s",
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.habd.as/comfusion/hall-of-mirrors.git"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.1.11",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "photoswipe": "^4.1.2",
+    "standard-version": "^6.0.1"
+  },
+  "peerDependencies": {
+    "after-dark": ">= 7.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "license": "0BSD"
+}
