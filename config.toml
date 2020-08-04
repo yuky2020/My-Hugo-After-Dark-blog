@@ -35,7 +35,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   ] # Suggested, controls default Open Graph images
 
 [params.hackcss]
-  palette = "dark-grey"
+  palette = "dark"
   
 [params.layout.menu.main]
   hidden = false # Optional, set false or remove to show section menu
