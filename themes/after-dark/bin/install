@@ -1,5 +1,4 @@
-#!/bin/sh
-
+#!/bin/sh -e
 #
 # Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
 #
@@ -84,12 +83,15 @@ theme = [
 
 disableLiveReload = false # Optional, set true to disable live reload
 enableRobotsTXT = true # Suggested, enable robots.txt file
-
-pygmentsCodefences = true # Suggested, highlight fenced code blocks
-pygmentsUseClasses = true # Required for custom syntax highlighting
-
 sectionPagesMenu = "main" # Enable menu system for lazy bloggers
-footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
+
+[markup.goldmark.renderer]
+  unsafe = true # Optional, allows HTML inside your CommonMark content
+[markup.tableOfContents]
+  startLevel = 1 # Suggested, draws TOC using all heading levels
+  endLevel = 6 # Suggested, draws TOC using all heading levels
+[markup.highlight]
+  noClasses = false # Suggested, used for custom syntax highlighting
 
 [params]
   description = "" # Suggested, controls default description meta
@@ -141,8 +143,6 @@ serve_help () {
    echo "Starting help server ..."
    hugo serve --disableLiveReload --port 1414 1>/dev/null &
 }
-
-set -e
 
 echo "Welcome to the After Dark quick installer. Press CTRL-C at any time to abort."
 

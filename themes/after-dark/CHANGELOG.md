@@ -2,6 +2,46 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.2.2](https://git.habd.as/comfusion/after-dark/compare/v9.2.1...v9.2.2) (2020-02-19)
+
+
+### Bug Fixes
+
+* **layouts/_default:** show posts on homepage as expected ([60d7c0d](https://git.habd.as/comfusion/after-dark/commit/60d7c0d)), closes [#174](https://git.habd.as/comfusion/after-dark/issues/174)
+* **shortcode/blockquote:** prevent raw html output when body used with citelink attr ([903dd69](https://git.habd.as/comfusion/after-dark/commit/903dd69))
+
+
+
+### [9.2.1](https://git.habd.as/comfusion/after-dark/compare/v9.2.0...v9.2.1) (2019-12-15)
+
+
+### Bug Fixes
+
+* collapse whitespace inside goldmark code blocks, alerts and cards ([5c9347d](https://git.habd.as/comfusion/after-dark/commit/5c9347d))
+* print out the full table of contents ([c176a8c](https://git.habd.as/comfusion/after-dark/commit/c176a8c))
+
+
+
+## [9.2.0](https://git.habd.as/comfusion/after-dark/compare/v9.1.0...v9.2.0) (2019-12-13)
+
+
+### Bug Fixes
+
+* **markdown:** restore footnote return links in hugo 0.60.0+ ([01aef48](https://git.habd.as/comfusion/after-dark/commit/01aef48))
+
+
+### Build System
+
+* **docker:** update for hugo release 0.61.0 ([0a1dc50](https://git.habd.as/comfusion/after-dark/commit/0a1dc50))
+* **feature/extended-builds:** upgrade extended build to hugo@0.60.0, go@1.13.4 and alpine@3.10 ([b229f2b](https://git.habd.as/comfusion/after-dark/commit/b229f2b))
+
+
+### Features
+
+* **feat/extended-builds:** add dockerfile and docker-compose ([52f1830](https://git.habd.as/comfusion/after-dark/commit/52f1830))
+
+
+
 ## [9.1.0](https://git.habd.as/comfusion/after-dark/compare/v9.0.0...v9.1.0) (2019-08-21)
 
 
