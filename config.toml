@@ -1,7 +1,7 @@
 baseurl = "https://www.matteobianchi.eu" # Controls base URL sitewide
 languageCode = "en-US" # Controls site language
 title = "Matteo Bianchi personal site and blog" # Homepage title and page title suffix
-paginate = 11 # Number of posts to show before paginating
+paginate = 7 # Number of posts to show before paginating
 
   
 # Controls default theme and theme components
@@ -52,7 +52,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   weight = 1
   
 [[params.layout.home.section]]
-  type = "appunti"
+  type = "UNI_Note"
   weight = 2
 
 [[menu.main]]
@@ -72,11 +72,11 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   identifier = "game"
   url = "/game/"
 
-[[menu.main]]
-  name = "Appunti universitari"
-  weight = 14
-  identifier = "appunti"
-  url = "/appunti/"
+#[[menu.main]]
+ # name = "Appunti universitari"
+  #weight = 14
+  #identifier = "UNI_Note"
+  #url = "/UNI_Note/"
   
 [[menu.main]]
   name = "CODE"
