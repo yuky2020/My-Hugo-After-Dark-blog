@@ -24,7 +24,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 
 [params]
   description = "Matteo Bianchi Personal Blog " # Suggested, controls default description meta
-  author = "" # Optional, controls author name display on posts
+  author = "Matteo Bianchi" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
   has_cookies = false # Optional, set true to disable cookie disclaimer
   related_content_limit = 5

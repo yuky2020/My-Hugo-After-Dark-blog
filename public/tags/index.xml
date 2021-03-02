@@ -10,13 +10,30 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.2 (Hugo 0.74.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 11 Aug 2020 19:26:27 UT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Mar 2021 00:05:44 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://www.matteobianchi.eu/tags/coding/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/tags/coding/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>haking </title>
+      <link>https://www.matteobianchi.eu/tags/haking/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/tags/haking/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>after</title>
       <link>https://www.matteobianchi.eu/tags/after/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/after/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -24,6 +41,7 @@
     <item>
       <title>Analisi1</title>
       <link>https://www.matteobianchi.eu/tags/analisi1/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/analisi1/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -31,6 +49,7 @@
     <item>
       <title>appunti</title>
       <link>https://www.matteobianchi.eu/tags/appunti/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/appunti/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -38,6 +57,7 @@
     <item>
       <title>Aps</title>
       <link>https://www.matteobianchi.eu/tags/aps/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/aps/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -45,6 +65,7 @@
     <item>
       <title>basiDiDati</title>
       <link>https://www.matteobianchi.eu/tags/basididati/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/basididati/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -52,6 +73,7 @@
     <item>
       <title>ComputerArquiteture</title>
       <link>https://www.matteobianchi.eu/tags/computerarquiteture/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/computerarquiteture/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -59,6 +81,7 @@
     <item>
       <title>Creacion De empresa</title>
       <link>https://www.matteobianchi.eu/tags/creacion-de-empresa/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/creacion-de-empresa/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -66,6 +89,7 @@
     <item>
       <title>dark</title>
       <link>https://www.matteobianchi.eu/tags/dark/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/dark/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -73,6 +97,7 @@
     <item>
       <title>Fisica1</title>
       <link>https://www.matteobianchi.eu/tags/fisica1/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/fisica1/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -80,6 +105,7 @@
     <item>
       <title>linux</title>
       <link>https://www.matteobianchi.eu/tags/linux/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/linux/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -87,6 +113,7 @@
     <item>
       <title>media digitali</title>
       <link>https://www.matteobianchi.eu/tags/media-digitali/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/media-digitali/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -94,6 +121,7 @@
     <item>
       <title>Programmacion Declarativa</title>
       <link>https://www.matteobianchi.eu/tags/programmacion-declarativa/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/programmacion-declarativa/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -101,6 +129,7 @@
     <item>
       <title>Reti Di Calcolatori </title>
       <link>https://www.matteobianchi.eu/tags/reti-di-calcolatori/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/reti-di-calcolatori/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -108,6 +137,7 @@
     <item>
       <title>Sistemi Informativi Sul Web</title>
       <link>https://www.matteobianchi.eu/tags/sistemi-informativi-sul-web/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/sistemi-informativi-sul-web/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -115,6 +145,7 @@
     <item>
       <title>Sistemi Operativi</title>
       <link>https://www.matteobianchi.eu/tags/sistemi-operativi/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/sistemi-operativi/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -122,6 +153,7 @@
     <item>
       <title>SystemasOperativos</title>
       <link>https://www.matteobianchi.eu/tags/systemasoperativos/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/systemasoperativos/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>

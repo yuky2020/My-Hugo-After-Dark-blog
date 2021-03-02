@@ -22,7 +22,7 @@ noindex = true
         placeholder="whUlqT0w6vfvTzd12LpU5kst/Cz3yt9j3ncIHcB4CDQFFiMVPlfX/I+vKl3Y98faqBLlgh6M4pyhiYzZNIPUPA=="
     >}}
     {{< hackcss-helpblock >}}
-      Submit with 9.2.2 <a href="/feature/release-hashes">Release Hash</a> to validate.
+      Submit with 9.2.3 <a href="/feature/release-hashes">Release Hash</a> to validate.
       <noscript>JavaScript required for proper validation.</noscript>
     {{< /hackcss-helpblock >}}
   {{< /hackcss-formgroup >}}
@@ -33,7 +33,7 @@ noindex = true
 <script>
   (function (window, document, undefined) {
     "use strict";
-    const digest = 'qqJaT8+wcYxnoBBH6CmoIFK/slqQM3SSr5ldMK/JtOMyc8pelzoZnoYAiwINIz9ttZYddFglKrCqwWkMqpxHjA==';
+    const digest = 'KxMbfuJ2nWTL3HOwBj/h34eF+l4t1EG56docvU4ENooyht2NXEiBWZzKhPue5liWNtKOPu21LQHiup8rc6enOw==';
     const confirm = form => {
       form.digest.readOnly = true;
       form.digest.value = digest;

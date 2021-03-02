@@ -10,15 +10,16 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.2 (Hugo 0.74.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 11 Aug 2020 19:26:27 UT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Mar 2021 00:05:44 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/fisica1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Appunti Fisica(RomaTre) </title>
-      <link>https://www.matteobianchi.eu/appunti/fisica1/</link>
+      <link>https://www.matteobianchi.eu/uni_note/fisica1/</link>
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
-      <guid>https://www.matteobianchi.eu/appunti/fisica1/</guid>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/uni_note/fisica1/</guid>
       <description>Appunti di fisica 1 del corso</description>
       <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
       <content:encoded><![CDATA[Appunti di fisica 1 del corso

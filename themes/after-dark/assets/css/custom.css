@@ -22,13 +22,13 @@ a[rel*="external"]::after {
 }
 nav a.active {
   background-color: inherit;
-  color: #00ffff;
+  color: #fff;
 }
 a[itemprop="url"] {
-  color: #ffffff;
+  color: #ff9800;
 }
 a[itemprop="url"]:hover {
-  color: #00ffff;
+  color: #fff;
 }
 .muted, .help-block {
   opacity: 0.70;

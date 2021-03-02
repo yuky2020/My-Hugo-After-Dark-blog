@@ -10,14 +10,26 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.2 (Hugo 0.74.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 11 Aug 2020 19:26:27 UT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Mar 2021 00:05:44 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aggiornamenti2</title>
+      <link>https://www.matteobianchi.eu/posts/aggiornamenti2/</link>
+      <pubDate>Wed, 26 Aug 2020 23:11:44 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/posts/aggiornamenti2/</guid>
+      <description>After a long long run the site is reborning await for good thing !</description>
+      <category domain="https://www.matteobianchi.eu/categories/hacking">Hacking</category>
+      <content:encoded><![CDATA[After a long long run the site is reborning await for good thing !
+]]></content:encoded>
+    </item>
     <item>
       <title>let me introduce myself </title>
       <link>https://www.matteobianchi.eu/posts/post/</link>
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/posts/post/</guid>
       <description>hi everybody this is my static site</description>
       <category domain="https://www.matteobianchi.eu/categories/hacking">Hacking</category>
@@ -28,6 +40,7 @@
       <title>One post for do some chenages </title>
       <link>https://www.matteobianchi.eu/posts/post-copy/</link>
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/posts/post-copy/</guid>
       <description>hi everybody this is my static site</description>
       <category domain="https://www.matteobianchi.eu/categories/hacking">Hacking</category>

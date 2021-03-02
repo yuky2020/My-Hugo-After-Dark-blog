@@ -1,204 +1,133 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://www.matteobianchi.eu/posts/aggiornamenti2/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/categories/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/tags/coding/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/categories/hacking/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/tags/haking/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
     <loc>https://www.matteobianchi.eu/</loc>
-    <lastmod>2019-04-26T20:08:35+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/posts/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/tags/</loc>
+    <lastmod>2020-08-27T01:11:44+02:00</lastmod>
+  </url><url>
     <loc>https://www.matteobianchi.eu/posts/aggiornamenti/</loc>
     <lastmod>2019-04-26T20:08:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/posts/</loc>
-    <lastmod>2019-04-26T20:08:35+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/after/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/analisi1/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/appunti/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/categories/appunti/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/basi-di-dati/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/basi-di-dati/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/computerarquiteture/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/computerarquiteture/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/analisi1/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/analisi1/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/creacion-de-empresa/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/creacion-de-empresa/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/programmaciondeclarativa/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/programmaciondeclarativa/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/retidicalcolatori/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/retidicalcolatori/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/fisica1/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/fisica1/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/sistemiinformativisulweb/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/sistemiinformativisulweb/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/analisi-e-progettazione-del-software/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/analisi-e-progettazione-del-software/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/</loc>
-    <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/aps/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/basididati/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/categories/</loc>
-    <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/computerarquiteture/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/creacion-de-empresa/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/dark/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/fisica1/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/categories/hacking/</loc>
-    <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/categories/it/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/posts/post/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/linux/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/media-digitali/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/posts/media-digitali/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/posts/test-jpa/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/posts/post-copy/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/programmacion-declarativa/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/reti-di-calcolatori/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/sistemi-informativi-sul-web/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/sistemi-operativi/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/appunti/sistemi-operativi-madrid/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/sistemi-operativi-madrid/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/tags/systemasoperativos/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matteobianchi.eu/tags/</loc>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/uni_note/</loc>
     <lastmod>2019-04-26T20:03:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.matteobianchi.eu/search/</loc>
   </url>
-  
 </urlset>
