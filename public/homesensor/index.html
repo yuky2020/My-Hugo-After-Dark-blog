@@ -10,32 +10,35 @@
     <meta name="generator" content="After Dark Hugo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search | Matteo Bianchi personal site and blog</title>
-    <meta name="description" content="Matteo Bianchi Personal Blog ">
+    <title> | Matteo Bianchi personal site and blog</title>
+    <meta name="description" content="sensor one =1
+sensor 2= 2">
     <meta name="keywords" content="appunti, hacking, it, ">
     
     
     
     
-      <meta name="robots" content="noindex">
-    
-    <meta property="og:title" content="Search" />
-<meta property="og:description" content="Matteo Bianchi Personal Blog " />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.matteobianchi.eu/search/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
+    <meta property="og:title" content="" />
+<meta property="og:description" content="sensor one =1
+sensor 2= 2" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.matteobianchi.eu/homesensor/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/><meta property="article:section" content="" />
+
+
 
 
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
-<meta name="twitter:title" content="Search"/>
-<meta name="twitter:description" content="Matteo Bianchi Personal Blog "/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="sensor one =1
+sensor 2= 2"/>
 
     
 
+
+
   <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
-
-
 
 
     
@@ -113,9 +116,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 
     
-      <link rel="alternate" type="application/rss+xml" href="https://www.matteobianchi.eu/search/index.xml" title="Matteo Bianchi personal site and blog">
-    
-    <link rel="canonical" href="https://www.matteobianchi.eu/search/">
+    <link rel="canonical" href="https://www.matteobianchi.eu/homesensor/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -250,7 +251,7 @@ a[itemprop="url"]:hover {
     
       
       
-        <a itemprop="url" class="active" rel="search" href="/search/">Search</a>
+        <a itemprop="url" rel="search" href="/search/">Search</a>
       
     
       
@@ -268,192 +269,17 @@ a[itemprop="url"]:hover {
 </header>
     <main>
   <header>
-    <h1>Search</h1>
+    <h1></h1>
   </header>
-  <div id="search-app" v-cloak>
-    
-      <style>{{ -}}[v-cloak] .js-cloaked{display:none}[v-cloak] .js-initializing::after{content:"Initializing search. Please wait..."}</style>
-    
-    <section>
-      <form v-on:submit.prevent role="search" class="form" action="https://www.matteobianchi.eu/search">
-        <fieldset class="form-group">
-          <input v-model="query" id="query" name="s" type="search" class="form-control" maxlength="32" autocomplete="off" placeholder="Enter search query…">
-          
-            <div class="help-block js-cloaked">Press <kbd>s</kbd> to focus input anytime.</div>
-          
-          <div class="help-block js-initializing"></div>
-        </fieldset>
-      </form>
-    </section>
-    <noscript>
-      <p>Cannot initialize. Search requires JavaScript to function.</p>
-    </noscript>
-    <section v-if="results.length" class="js-cloaked">
-      <p><i>Showing results for “{ resultsForSearch }”.</i></p>
-      <div id="search-results">
-        <article v-for="result in results" itemscope itemtype="https://schema.org/CreativeWork">
-          <header itemprop="name">
-            <h2 itemprop="name"><a :href="result.item.url">{ result.item.title }</a></h2>
-          </header>
-          <div v-html=result.item.summary itemprop="description"></div>
-          <nav class="readmore"><p><a itemprop="url" :href="result.item.url">Read More&nbsp;&raquo;</a></p></nav>
-        </article>
-      </div>
-    </section>
-  </div>
+  <p>sensor one =1</p>
+<p>sensor 2= 2</p>
+
 </main>
     <footer>
   <small class="muted">
     
 
   </small>
-  
-  <script integrity="sha512-wLISG0SflrGlgvFFlFfHwSkLBgWOmA&#43;6L3sTohQaGiUZj3fZZmtpMn1ScSUk1AbqdBmR8PGrQp9XJ5yhUKoZmA==">/*!
- * Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
- *
- * This file is part of After Dark.
- *
- * After Dark is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * After Dark is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
- */
-
-fetchInject([
-  "/js/vue.min.js",
-  "/js/lodash.custom.min.js",
-  "/js/fuse.min.js",
-  "/js/mark.min.js"
-]).then(() => {
-  (function (window, document, undefined) {
-    'use strict';
-
-    const getQueryByParam = param => decodeURIComponent(
-      (location.search.split(param + '=')[1] || '').split('&')[0]
-    ).replace(/\+/g, ' ');
-
-    const queryParam = 's';
-    const hotkeys = ["/","s"];
-    const selectors = {
-      appContainer: '#search-app',
-      resultContainer: '#search-results',
-      searchInput: '#query'
-    };
-
-    const fuseOpts = {
-      shouldSort: true,
-      tokenize: true,
-      matchAllTokens: true,
-      includeScore: true,
-      includeMatches: true,
-      keys: [
-        { name: "title", weight: 0.8 },
-        { name: "contents", weight: 0.5 },
-        { name: "tags", weight: 0.3 },
-        { name: "categories", weight: 0.3 }
-      ]
-    };
-
-    const getSearchInput = () => document.querySelector(selectors.searchInput);
-    const focusSearchInput = () => getSearchInput().focus();
-    const searchQuery = getSearchInput().value = getQueryByParam(queryParam);
-
-    const fuse = new Fuse([], fuseOpts);
-    window.fetch('/index.json').then(response => {
-      response.text().then(searchData => {
-        fuse.setCollection(JSON.parse(searchData));
-        searchQuery && search(searchQuery);
-      });
-    });
-
-    const getUrl = (query) => {
-      const encodedQuery = encodeURIComponent(query);
-      const url = "/search/";
-      return (encodedQuery)
-        ? `${url}?${queryParam}=${encodedQuery}`
-        : url;
-    };
-
-    let mark = new Mark(
-      document.querySelector(
-        selectors.resultContainer
-      )
-    );
-
-    const app = new Vue({
-      delimiters: ['{', '}'],
-      el: selectors.appContainer,
-      data: {
-        fuse: null,
-        results: [],
-        query: getQueryByParam(queryParam),
-        resultsForSearch: getQueryByParam(queryParam)
-      },
-      mounted () {
-        this.fuse = fuse;
-        window.onpopstate = (evt) => {
-          this.query = evt.state.query;
-        };
-        const searchInput = getSearchInput();
-        document.onkeydown = function (evt) {
-          if (evt.target === searchInput) return;
-          if (hotkeys.includes(evt.key)) {
-            evt.preventDefault();
-            focusSearchInput();
-            getSearchInput().select();
-          };
-        }
-        focusSearchInput();
-      },
-      watch: {
-        query () {
-          this.executeSearch();
-          window.history.replaceState(
-            {query: this.query},
-            null,
-            getUrl(this.query)
-          );
-        }
-      },
-      beforeUpdate: function () {
-        mark.unmark();
-      },
-      updated: function () {
-        this.$nextTick(function () {
-          mark = new Mark(
-            document.querySelector(
-              selectors.resultContainer
-            )
-          )
-          mark.mark(this.query.trim());
-        })
-      },
-      methods: {
-        executeSearch: _.debounce(function () {
-          const trimmedQuery = this.query.trim();
-          this.resultsForSearch = trimmedQuery;
-          this.results = (trimmedQuery)
-            ? this.fuse.search(trimmedQuery)
-            : [];
-        }, 250)
-      }
-    });
-
-    const search = query => {
-      app.results = fuse.search(query);
-    };
-
-  })(window, document);
-});
-</script>
 </footer>
     
     
