@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 12 Mar 2021 13:13:12 UT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Mar 2021 13:29:55 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
@@ -35,10 +35,8 @@
       <link>https://www.matteobianchi.eu/homesensor/</link>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/homesensor/</guid>
-      <description>sensor one =1
-sensor 2= 2</description>
-      <content:encoded><![CDATA[sensor one =1
-sensor 2= 2
+      <description>Current off-chip sensor temperature = 20 Celsius Current onboard sensor brightness = 21 Lux Current onboard sensor temperature = 22 Celsius Current onboard sensor humidity = 51 % Current barometer temperature = 23 Celsius Current barometer pressure = 100379 pascal No humans detected!</description>
+      <content:encoded><![CDATA[Current off-chip sensor temperature = 20 Celsius Current onboard sensor brightness = 21 Lux Current onboard sensor temperature = 22 Celsius Current onboard sensor humidity = 51 % Current barometer temperature = 23 Celsius Current barometer pressure = 100379 pascal No humans detected!
 ]]></content:encoded>
     </item>
     <item>
