@@ -90,7 +90,12 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   identifier = "about"
   url = "/about/"  
 
-  
+[[menu.main]]
+  name = "HomeSensorStat"
+  weight = 18
+  identifier = "HomeSensor"
+  url = "/homesensor/"  
+
 
 
 [outputs]
