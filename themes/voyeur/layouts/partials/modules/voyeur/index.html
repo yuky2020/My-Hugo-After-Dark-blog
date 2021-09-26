@@ -1,0 +1,18 @@
+{{ $url := .url | default $.Site.BaseURL }}
+{{ if ne .enabled false }}
+  <meta title="mod:voyeur" content="status:enabled">
+  <script>
+  (function(f, a, t, h, o, m){
+    a[h]=a[h]||function(){
+      (a[h].q=a[h].q||[]).push(arguments)
+    };
+    o=f.createElement('script'),
+    m=f.getElementsByTagName('script')[0];
+    o.async=1; o.src=t; o.id='fathom-script';
+    m.parentNode.insertBefore(o,m)
+  })(document, window, '{{ $url }}{{ with .port }}:{{ . }}{{ end }}/tracker.js', 'fathom');
+  fathom('trackPageview');
+  </script>
+{{ else }}
+  <meta title="mod:voyeur" content="status:disabled">
+{{ end }}
