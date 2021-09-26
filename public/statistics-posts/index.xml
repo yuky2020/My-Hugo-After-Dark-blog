@@ -1,0 +1,40 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>Statistics-posts on Matteo Bianchi personal site and blog</title>
+    <link>https://www.matteobianchi.eu/statistics-posts/</link>
+    <description>Recent content in Statistics-posts on Matteo Bianchi personal site and blog</description>
+    <image>
+      <title>Statistics-posts on Matteo Bianchi personal site and blog</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 26 Sep 2021 12:30:28 UT</lastBuildDate>
+    <atom:link href="https://www.matteobianchi.eu/statistics-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About this section</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/primo/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/primo/</guid>
+      <description>This section This section will include various research and material about the course of statistics</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[This section This section will include various research and material about the course of statistics
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Statistic and its reaches out</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/stattistics-and-its-reach-out/</link>
+      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/stattistics-and-its-reach-out/</guid>
+      <description>Statistics: Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[Statistics: Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

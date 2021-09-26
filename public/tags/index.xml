@@ -10,26 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 12 Mar 2021 13:35:59 UT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 12:30:28 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coding</title>
-      <link>https://www.matteobianchi.eu/tags/coding/</link>
-      <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/tags/coding/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>haking </title>
-      <link>https://www.matteobianchi.eu/tags/haking/</link>
-      <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/tags/haking/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
     <item>
       <title>after</title>
       <link>https://www.matteobianchi.eu/tags/after/</link>
@@ -147,6 +131,14 @@
       <link>https://www.matteobianchi.eu/tags/sistemi-operativi/</link>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/tags/sistemi-operativi/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>statistic</title>
+      <link>https://www.matteobianchi.eu/tags/statistic/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/tags/statistic/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

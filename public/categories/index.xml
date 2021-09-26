@@ -10,18 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 12 Mar 2021 13:35:59 UT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 12:30:28 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hacking</title>
-      <link>https://www.matteobianchi.eu/categories/hacking/</link>
-      <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/categories/hacking/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
     <item>
       <title>appunti</title>
       <link>https://www.matteobianchi.eu/categories/appunti/</link>
@@ -31,10 +23,26 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+      <title>hacking</title>
+      <link>https://www.matteobianchi.eu/categories/hacking/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/categories/hacking/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
       <title>IT</title>
       <link>https://www.matteobianchi.eu/categories/it/</link>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/categories/it/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>statistic</title>
+      <link>https://www.matteobianchi.eu/categories/statistic/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/categories/statistic/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

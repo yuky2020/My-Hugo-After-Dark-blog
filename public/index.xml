@@ -10,15 +10,23 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 12 Mar 2021 13:35:59 UT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 12:30:28 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>https://www.matteobianchi.eu/posts/</link>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/posts/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Statistics-posts</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -35,8 +43,9 @@
       <link>https://www.matteobianchi.eu/homesensor/</link>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/homesensor/</guid>
-      <description>Current off-chip sensor temperature = 20 Celsius Current onboard sensor brightness = 21 Lux Current onboard sensor temperature = 22 Celsius Current onboard sensor humidity = 51 % Current barometer temperature = 23 Celsius Current barometer pressure = 100379 pascal No humans detected! </description>
-      <content:encoded><![CDATA[Current off-chip sensor temperature = 20 Celsius Current onboard sensor brightness = 21 Lux Current onboard sensor temperature = 22 Celsius Current onboard sensor humidity = 51 % Current barometer temperature = 23 Celsius Current barometer pressure = 100379 pascal No humans detected! ]]></content:encoded>
+      <description>Current off-chip sensor temperature = 20 Celsius Current onboard sensor brightness = 5 Lux Current onboard sensor temperature = 23 Celsius Current onboard sensor humidity = 48 % Current barometer temperature = 24 Celsius Current barometer pressure = 100336 pascal No humans detected!</description>
+      <content:encoded><![CDATA[Current off-chip sensor temperature = 20 Celsius Current onboard sensor brightness = 5 Lux Current onboard sensor temperature = 23 Celsius Current onboard sensor humidity = 48 % Current barometer temperature = 24 Celsius Current barometer pressure = 100336 pascal No humans detected!
+]]></content:encoded>
     </item>
     <item>
       <title>Search</title>
