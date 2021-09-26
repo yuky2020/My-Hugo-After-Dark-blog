@@ -16,5 +16,6 @@ images = [
 
 +++
 # This section 
-This section will include various research and material about the course of statistics 
+This section will include various research  and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+
 

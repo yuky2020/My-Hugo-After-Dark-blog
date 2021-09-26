@@ -9,7 +9,8 @@ theme = [
   "toxic-swamp",
   "fractal-forest",
   "hall-of-mirrors",
-  "after-dark"
+  "after-dark",
+  "hugo-cite"
   
 ]
 
