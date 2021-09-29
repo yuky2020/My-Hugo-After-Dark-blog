@@ -1,7 +1,7 @@
 +++
 title = "About this section"
-date = 2019-04-26T20:03:36+02:00
-description = "Why "
+date = 2018-04-26T20:03:36+02:00
+description = "Why is here? "
 draft = false
 toc = false
 categories = ["statistic"]
@@ -15,7 +15,8 @@ images = [
   name = "header thumbnail"
 
 +++
-# This section 
-This section will include various research  and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+## This section: 
+
+I will include various research  and materials about the course of statistics held at Sapienza for Cybersecurity Master.
 
 

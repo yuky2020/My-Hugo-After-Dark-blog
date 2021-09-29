@@ -10,9 +10,9 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.68.3)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Sep 2021 12:30:28 UT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Sep 2021 21:16:19 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/aps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AppuntiAps(RomaTre) </title>
@@ -20,9 +20,9 @@
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/uni_note/analisi-e-progettazione-del-software/</guid>
-      <description>Appunti del corso di Aps dell&#39; universita degli studi di roma tre</description>
+      <description>Appunti del corso di Aps dell&amp;rsquo; universita degli studi di roma tre</description>
       <category domain="https://www.matteobianchi.eu/categories/appunti">Appunti</category>
-      <content:encoded><![CDATA[Appunti del corso di Aps dell&#39; universita degli studi di roma tre
+      <content:encoded><![CDATA[Appunti del corso di Aps dell&amp;rsquo; universita degli studi di roma tre
 ]]></content:encoded>
     </item>
   </channel>
