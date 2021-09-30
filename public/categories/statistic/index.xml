@@ -12,14 +12,14 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 30 Sep 2021 16:34:46 UT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Sep 2021 18:05:06 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/categories/statistic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1_A</title>
-      <link>https://www.matteobianchi.eu/statistics-posts/1a/</link>
+      <link>https://www.matteobianchi.eu/statistics-posts/week-1/1a/</link>
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/statistics-posts/1a/</guid>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week-1/1a/</guid>
       <description>1_A assignament Request Create - in both languages C# and VB.NET - a program which does the following simple tasks to get acquainted with the tool:
 when a button is pressed some text appears in a richtexbox on the startup form when another button is pressed animate one or more colored balls within a rectangle
 My Solution   Code in C#
@@ -36,15 +36,15 @@ Form code In C# public MyFristGUI() { InitializeComponent(); t.Interval = 4; fla
     </item>
     <item>
       <title>1_R</title>
-      <link>https://www.matteobianchi.eu/statistics-posts/1r/</link>
+      <link>https://www.matteobianchi.eu/statistics-posts/week-1/1r/</link>
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/statistics-posts/1r/</guid>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week-1/1r/</guid>
       <description>Statistics: “The science of kings, political and science of statecraft.” (Citation: EMATH,&amp;#32;EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.  )  Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
-Statistics domains   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.</description>
+Statistics Application domain   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
       <content:encoded><![CDATA[Statistics: “The science of kings, political and science of statecraft.” (Citation: EMATH,&amp;#32;EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.  )  Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
-Statistics domains   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.      ]]></content:encoded>
+Statistics Application domain   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.      ]]></content:encoded>
     </item>
     <item>
       <title>About this section</title>

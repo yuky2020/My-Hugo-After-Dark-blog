@@ -16,6 +16,9 @@ images = [
   name = "header thumbnail"
 
 +++
+
+![header](images/2.png)
+
 ## 1_A assignament
 
 ### Request
