@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Sep 2021 17:59:02 UT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Sep 2021 16:34:46 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/categories/statistic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1_A</title>
@@ -23,13 +23,16 @@
       <description>1_A assignament Request Create - in both languages C# and VB.NET - a program which does the following simple tasks to get acquainted with the tool:
 when a button is pressed some text appears in a richtexbox on the startup form when another button is pressed animate one or more colored balls within a rectangle
 My Solution   Code in C#
-Code in VB.net</description>
+Code in VB.net
+Code in zip(mirror)
+Form code In C# public MyFristGUI() { InitializeComponent(); t.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
       <content:encoded><![CDATA[1_A assignament Request Create - in both languages C# and VB.NET - a program which does the following simple tasks to get acquainted with the tool:
 when a button is pressed some text appears in a richtexbox on the startup form when another button is pressed animate one or more colored balls within a rectangle
 My Solution   Code in C#
 Code in VB.net
-]]></content:encoded>
+Code in zip(mirror)
+Form code In C# public MyFristGUI() { InitializeComponent(); t.Interval = 4; flag = new Bitmap(480, 160); g = Graphics.FromImage(flag); t.Tick &#43;= T_Tick; } Bitmap flag; Graphics g; int x = 20; int y = 20; Timer t = new Timer(); private void button1_Click(object sender, EventArgs e) { this.richTextBox1.Text = &amp;#34;button pressed&amp;#34;; } private void T_Tick(object sender, EventArgs e) { var rand2 = new Random(); g = Graphics.FromImage(flag); g.Clear(Color.White); g.DrawCircle(new Pen(Brushes.Red, 2), x, y, 20); g.FillCircle(Brushes.Red, x, y, 20); x = x&#43;rand2.Next(-10, 10); y = y&#43; rand2.Next(-10,10); if (x &amp;gt; 460) x = x - 10; if (x &amp;lt; 20) x = x &#43; 10; if (y &amp;gt; 140) y = y - 10; if (y &amp;lt; 20) y = y &#43; 10; pictureBox2.Image = flag; } private void MyFristGUI_Load(object sender, EventArgs e) { } private void button2_MouseClick(object sender, MouseEventArgs e) { var rand = new Random(); x = rand.Next(20, 460); y = rand.Next(20, 140); t.Start(); this.button2.Visible = false; this.button3.Text = &amp;#34;STOP&amp;#34;; this.button3.Visible = true; } private void button3_MouseClick(object sender, MouseEventArgs e) { t.Stop(); g.Clear(BackColor); this.button3.Visible = false; this.button2.Visible = true; pictureBox2.Image = flag; } } ]]></content:encoded>
     </item>
     <item>
       <title>1_R</title>
@@ -37,11 +40,11 @@ Code in VB.net
       <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/statistics-posts/1r/</guid>
-      <description>Statistics Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
-Statistics domains </description>
+      <description>Statistics: “The science of kings, political and science of statecraft.” (Citation: EMATH,&amp;#32;EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.  )  Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
+Statistics domains   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[Statistics Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
-Statistics domains ]]></content:encoded>
+      <content:encoded><![CDATA[Statistics: “The science of kings, political and science of statecraft.” (Citation: EMATH,&amp;#32;EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.  )  Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
+Statistics domains   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.      ]]></content:encoded>
     </item>
     <item>
       <title>About this section</title>
@@ -49,9 +52,9 @@ Statistics domains ]]></content:encoded>
       <pubDate>Thu, 26 Apr 2018 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/statistics-posts/primo/</guid>
-      <description>This section: I will include various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.</description>
+      <description>This section: I will include in this section various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[This section: I will include various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+      <content:encoded><![CDATA[This section: I will include in this section various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.
 ]]></content:encoded>
     </item>
   </channel>

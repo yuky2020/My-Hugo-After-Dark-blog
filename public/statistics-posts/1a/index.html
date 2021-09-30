@@ -115,7 +115,7 @@ fetchInject(["/js/lazysizes.min.js"]);
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
-
+<link rel="stylesheet" type="text/css" href="/hugo-cite.css" />
     
 
   
@@ -198,6 +198,11 @@ a[itemprop="url"]:hover {
 
 
     
+    
+      <script integrity="sha512-ISTAV0GadOIz/NXXHOS+eCM0ysXVVHhQTlvA6LJxz/DeA5yIxm0Vqf5IE+WH0yuuXkayAKtoZkQ326nch5f/fg==">fetchInject(["/css/syntax.css"]);</script>
+      <noscript>
+        <link href="/css/syntax.css" rel="stylesheet">
+      </noscript>
     
   </head>
   
@@ -284,6 +289,82 @@ when another button is pressed animate one or more colored balls within a rectan
 
 <p><a href="https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment1/C%23">Code in C#</a></p>
 <p><a href="https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment1/VB.NET/WindowsApp1">Code in VB.net</a></p>
+<p><a href="https://drive.google.com/file/d/1d5qdIW5dQYCQ6KT-iTq8_dEiNh4ylUIS/view?usp=sharing">Code in zip(mirror)</a></p>
+<h4 id="form-code-in-c">Form code In C#</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cs" data-lang="cs">  <span class="k">public</span> <span class="n">MyFristGUI</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">InitializeComponent</span><span class="p">();</span>
+
+            <span class="n">t</span><span class="p">.</span><span class="n">Interval</span> <span class="p">=</span> <span class="m">4</span><span class="p">;</span>
+            <span class="n">flag</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Bitmap</span><span class="p">(</span><span class="m">480</span><span class="p">,</span> <span class="m">160</span><span class="p">);</span>
+            <span class="n">g</span> <span class="p">=</span> <span class="n">Graphics</span><span class="p">.</span><span class="n">FromImage</span><span class="p">(</span><span class="n">flag</span><span class="p">);</span>
+            <span class="n">t</span><span class="p">.</span><span class="n">Tick</span> <span class="p">+=</span> <span class="n">T_Tick</span><span class="p">;</span>
+
+        <span class="p">}</span>
+        <span class="n">Bitmap</span> <span class="n">flag</span><span class="p">;</span>
+        <span class="n">Graphics</span> <span class="n">g</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">x</span> <span class="p">=</span> <span class="m">20</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">y</span> <span class="p">=</span> <span class="m">20</span><span class="p">;</span>
+        <span class="n">Timer</span> <span class="n">t</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Timer</span><span class="p">();</span>
+       
+
+        <span class="k">private</span> <span class="k">void</span> <span class="n">button1_Click</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">EventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">richTextBox1</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;button pressed&#34;</span><span class="p">;</span>
+        <span class="p">}</span>
+
+     
+        <span class="k">private</span> <span class="k">void</span> <span class="n">T_Tick</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">EventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>    
+            <span class="kt">var</span> <span class="n">rand2</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Random</span><span class="p">();</span>
+            <span class="n">g</span> <span class="p">=</span> <span class="n">Graphics</span><span class="p">.</span><span class="n">FromImage</span><span class="p">(</span><span class="n">flag</span><span class="p">);</span>
+            <span class="n">g</span><span class="p">.</span><span class="n">Clear</span><span class="p">(</span><span class="n">Color</span><span class="p">.</span><span class="n">White</span><span class="p">);</span>
+            <span class="n">g</span><span class="p">.</span><span class="n">DrawCircle</span><span class="p">(</span><span class="k">new</span> <span class="n">Pen</span><span class="p">(</span><span class="n">Brushes</span><span class="p">.</span><span class="n">Red</span><span class="p">,</span> <span class="m">2</span><span class="p">),</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="m">20</span><span class="p">);</span>
+            <span class="n">g</span><span class="p">.</span><span class="n">FillCircle</span><span class="p">(</span><span class="n">Brushes</span><span class="p">.</span><span class="n">Red</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="m">20</span><span class="p">);</span>
+           
+            <span class="n">x</span> <span class="p">=</span> <span class="n">x</span><span class="p">+</span><span class="n">rand2</span><span class="p">.</span><span class="n">Next</span><span class="p">(-</span><span class="m">10</span><span class="p">,</span> <span class="m">10</span><span class="p">);</span>
+            <span class="n">y</span> <span class="p">=</span> <span class="n">y</span><span class="p">+</span> <span class="n">rand2</span><span class="p">.</span><span class="n">Next</span><span class="p">(-</span><span class="m">10</span><span class="p">,</span><span class="m">10</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="p">&gt;</span> <span class="m">460</span><span class="p">)</span> <span class="n">x</span> <span class="p">=</span> <span class="n">x</span> <span class="p">-</span> <span class="m">10</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="p">&lt;</span> <span class="m">20</span><span class="p">)</span> <span class="n">x</span> <span class="p">=</span> <span class="n">x</span> <span class="p">+</span> <span class="m">10</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">y</span> <span class="p">&gt;</span> <span class="m">140</span><span class="p">)</span> <span class="n">y</span> <span class="p">=</span> <span class="n">y</span> <span class="p">-</span> <span class="m">10</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">y</span> <span class="p">&lt;</span> <span class="m">20</span><span class="p">)</span> <span class="n">y</span> <span class="p">=</span> <span class="n">y</span> <span class="p">+</span> <span class="m">10</span><span class="p">;</span>
+            <span class="n">pictureBox2</span><span class="p">.</span><span class="n">Image</span> <span class="p">=</span> <span class="n">flag</span><span class="p">;</span>
+
+         
+           
+        <span class="p">}</span>
+
+
+
+        <span class="k">private</span> <span class="k">void</span> <span class="n">MyFristGUI_Load</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">EventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>
+
+
+        <span class="p">}</span>
+
+        <span class="k">private</span> <span class="k">void</span> <span class="n">button2_MouseClick</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">MouseEventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>
+            
+            <span class="kt">var</span> <span class="n">rand</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Random</span><span class="p">();</span>
+            <span class="n">x</span> <span class="p">=</span> <span class="n">rand</span><span class="p">.</span><span class="n">Next</span><span class="p">(</span><span class="m">20</span><span class="p">,</span> <span class="m">460</span><span class="p">);</span>
+            <span class="n">y</span> <span class="p">=</span> <span class="n">rand</span><span class="p">.</span><span class="n">Next</span><span class="p">(</span><span class="m">20</span><span class="p">,</span> <span class="m">140</span><span class="p">);</span>
+            <span class="n">t</span><span class="p">.</span><span class="n">Start</span><span class="p">();</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">button2</span><span class="p">.</span><span class="n">Visible</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">button3</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;STOP&#34;</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">button3</span><span class="p">.</span><span class="n">Visible</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="k">private</span> <span class="k">void</span> <span class="n">button3_MouseClick</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">MouseEventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">t</span><span class="p">.</span><span class="n">Stop</span><span class="p">();</span>
+            <span class="n">g</span><span class="p">.</span><span class="n">Clear</span><span class="p">(</span><span class="n">BackColor</span><span class="p">);</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">button3</span><span class="p">.</span><span class="n">Visible</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">button2</span><span class="p">.</span><span class="n">Visible</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+            <span class="n">pictureBox2</span><span class="p">.</span><span class="n">Image</span> <span class="p">=</span> <span class="n">flag</span><span class="p">;</span>
+        <span class="p">}</span>
+
+       
+    <span class="p">}</span></code></pre></div>
 
 </main>
     <footer>

@@ -16,9 +16,19 @@ images = [
 +++
 ![header](images/1.jpg)
 
-## Statistics
+## Statistics: “The science of kings, political and science of statecraft.” {{< cite "01" >}}
 
 Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
 
-## Statistics domains 
+## Statistics Application domain
 
+
+
+
+
+
+
+
+
+
+{{< bibliography >}}

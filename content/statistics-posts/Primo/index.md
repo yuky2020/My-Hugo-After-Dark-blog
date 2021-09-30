@@ -9,14 +9,14 @@ tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"
 ] # overrides site-wide open graph image
-
+ thumbnail = "images/2.jpg"
 [[resources]]
   src = "images/2.png"
   name = "header thumbnail"
-
 +++
+
 ## This section: 
 
-I will include various research  and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+I will include in this section various research  and materials about the course of statistics held at Sapienza for Cybersecurity Master.
 
 
