@@ -12,8 +12,32 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 30 Sep 2021 21:39:44 UT</lastBuildDate>
+    <lastBuildDate>Fri, 01 Oct 2021 11:48:29 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/statistic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1_R</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_1/1r/</link>
+      <pubDate>Wed, 29 Sep 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_1/1r/</guid>
+      <description>Statistics: “The science of kings, political and science of statecraft.”[1] Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.[2]
+Statistics Application domain Statistics is a very old subject in fact, early writings on statistical inference can be found in the VII century,[2] but its reach out continue to evolve even today nevertheless is an essential tool to deal with any sort of data, make reports and provide governance tools.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[Statistics: “The science of kings, political and science of statecraft.”[1] Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.[2]
+Statistics Application domain Statistics is a very old subject in fact, early writings on statistical inference can be found in the VII century,[2] but its reach out continue to evolve even today nevertheless is an essential tool to deal with any sort of data, make reports and provide governance tools.
+Is a branch of mathematic? Statistics use mathematics to interact and manipulate data, when we are dealing with the application of probability theory inside the statistic we are defacto talking about mathematical statistics, people tend to identify this with statistics itself saying that statistics is a branch of mathematics, but this is no more true as saying that engineering is a branch of mathematic [3]
+[4] &amp;ldquo;Mathematics is a branch of science that involves studying logic and structure on an abstract level.It should also be noted that while only certain parts of mathematics are considered &amp;ldquo;pure&amp;rdquo;, mathematics is more than just applied statistics in the sense that all areas of study are connected by a set of common foundations and ideas.&amp;rdquo; [4]&amp;ldquo;Statistics is a discipline that applies the principles of mathematics to scientific data. It focuses on methods for summarizing and communicating the results of surveys, experiments, or observations. Statistics help inform us about everything from what popular movies are out, how many people were convicted of crimes last year, whether global warming is occurring, etc. Unlike pure mathematics, statistics deals with attempting to make statements about reality using empirical evidence.&amp;rdquo;
+Could be consider a science? Science is the mapping of nature into a form that humans can understand,so every discipline or art fallling into this definition is considerble as a science. However the interpretation of statistics is usualy colser to an art, a technology,or as a tool[5] but since statistics enables a researcher to draw meaningful conclusions from masses of data[6] and uses the scientific method to drow conclusion for sure it can be recognized as a science.
+The scientic method:  review of facts, theories, and proposals, Formulation of a logical hypothesis that can be evaluated by experimental methods Objective evaluation of the hypothesis on the basis of experimental results.  Is application in Statistics Its application lies in many aspects of the design of the experiment but generaly include:
+ Initial planning of the experiment, Collection of data, Analysis of results, Summarizing of the data, and Evaluation of the uncertainty of any statistical inference drawn from the results. [6]  Fun Facts Statistics is probabably at the base of Psychohistory[7]    Bibliography  [1]&amp;ldquo;EMATHZONE&amp;rdquo;, &amp;ldquo;url&amp;rdquo;: &amp;ldquo;https://www.emathzone.com/tutorials/basic-statistics/definition-of-statistics.html&amp;quot;
+[2]&amp;ldquo;Wiki-Statistica&amp;rdquo;,&amp;ldquo;url&amp;rdquo;: &amp;ldquo;https://it.wikipedia.org/wiki/Statistica&amp;quot;
+[3]&amp;ldquo;Quora:Is-statistics-a-branch-of-mathematics-or-a-discipline-of-its-own&amp;rdquo;,&amp;ldquo;url&amp;rdquo;: &amp;ldquo;https://www.quora.com/Is-statistics-a-branch-of-mathematics-or-a-discipline-of-its-own&amp;quot;
+[4]&amp;ldquo;Quora: the-difference-between-mathematics-and-statistics&amp;rdquo;&amp;rdquo;,&amp;ldquo;url&amp;rdquo;: &amp;ldquo;https://www.quora.com/What-is-the-difference-between-mathematics-and-statistics&amp;quot;
+[5]&amp;rdquo; Journal of the Royal Statistical Society&amp;rdquo;,&amp;ldquo;url&amp;rdquo;:&amp;ldquo;https://www.jstor.org/stable/2344809&amp;quot;
+[5]&amp;ldquo;ndsu:statistics review &amp;ldquo;,&amp;ldquo;url&amp;rdquo;:&amp;ldquo;https://www.ndsu.edu/faculty/horsley/Stat_rev.pdf&amp;quot;
+[7]&amp;ldquo;Foundation&amp;rdquo;,&amp;ldquo;url&amp;rdquo;:&amp;ldquo;https://asimov.fandom.com/wiki/Psychohistory&amp;quot;
+]]></content:encoded>
+    </item>
     <item>
       <title>1_A</title>
       <link>https://www.matteobianchi.eu/statistics-posts/week_1/1a/</link>
@@ -33,18 +57,6 @@ My Solution   Code in C#
 Code in VB.net
 Code in zip(mirror)
 Form code In C# public MyFristGUI() { InitializeComponent(); t.Interval = 4; flag = new Bitmap(480, 160); g = Graphics.FromImage(flag); t.Tick &#43;= T_Tick; } Bitmap flag; Graphics g; int x = 20; int y = 20; Timer t = new Timer(); private void button1_Click(object sender, EventArgs e) { this.richTextBox1.Text = &amp;#34;button pressed&amp;#34;; } private void T_Tick(object sender, EventArgs e) { var rand2 = new Random(); g = Graphics.FromImage(flag); g.Clear(Color.White); g.DrawCircle(new Pen(Brushes.Red, 2), x, y, 20); g.FillCircle(Brushes.Red, x, y, 20); x = x&#43;rand2.Next(-10, 10); y = y&#43; rand2.Next(-10,10); if (x &amp;gt; 460) x = x - 10; if (x &amp;lt; 20) x = x &#43; 10; if (y &amp;gt; 140) y = y - 10; if (y &amp;lt; 20) y = y &#43; 10; pictureBox2.Image = flag; } private void MyFristGUI_Load(object sender, EventArgs e) { } private void button2_MouseClick(object sender, MouseEventArgs e) { var rand = new Random(); x = rand.Next(20, 460); y = rand.Next(20, 140); t.Start(); this.button2.Visible = false; this.button3.Text = &amp;#34;STOP&amp;#34;; this.button3.Visible = true; } private void button3_MouseClick(object sender, MouseEventArgs e) { t.Stop(); g.Clear(BackColor); this.button3.Visible = false; this.button2.Visible = true; pictureBox2.Image = flag; } } ]]></content:encoded>
-    </item>
-    <item>
-      <title>1_R</title>
-      <link>https://www.matteobianchi.eu/statistics-posts/week_1/1r/</link>
-      <pubDate>Fri, 26 Apr 2019 18:03:36 UT</pubDate>
-      <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/statistics-posts/week_1/1r/</guid>
-      <description>Statistics: “The science of kings, political and science of statecraft.” (Citation: EMATH,&amp;#32;EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.  )  Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
-Statistics Application domain   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.</description>
-      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[Statistics: “The science of kings, political and science of statecraft.” (Citation: EMATH,&amp;#32;EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.  )  Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
-Statistics Application domain   EMATH (n.d.)  EMATH,&amp;#32; D. &amp;#32; (n.d.). &amp;#32;.      ]]></content:encoded>
     </item>
     <item>
       <title>About this section</title>

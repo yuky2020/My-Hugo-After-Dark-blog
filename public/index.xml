@@ -12,21 +12,21 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 30 Sep 2021 21:39:44 UT</lastBuildDate>
+    <lastBuildDate>Fri, 01 Oct 2021 11:48:29 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Posts</title>
-      <link>https://www.matteobianchi.eu/posts/</link>
-      <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/posts/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
     <item>
       <title>Statistics-posts</title>
       <link>https://www.matteobianchi.eu/statistics-posts/</link>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/statistics-posts/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Posts</title>
+      <link>https://www.matteobianchi.eu/posts/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/posts/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
