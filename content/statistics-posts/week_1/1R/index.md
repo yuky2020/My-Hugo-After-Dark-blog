@@ -1,6 +1,6 @@
 +++
 title = "1_R"
-date = 2019-04-26T20:03:36+02:00
+date = 2021-09-29T20:03:36+02:00
 description = "Statistic and its reaches out:An introduction to the world of statistics"
 draft = false
 toc = false
@@ -16,12 +16,21 @@ images = [
 +++
 ![header](images/1.jpg)
 
-## Statistics: “The science of kings, political and science of statecraft.” {{< cite "01" >}}
+## Statistics: “The science of kings, political and science of statecraft.” 
+[1]
 
-Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.
+Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.[2]
 
 ## Statistics Application domain
 
+Statistics is a very old subject
+in fact, early writings on statistical inference can be found in the VII century,[2] but its reach out continue to evolve even today  nevertheless  is  an essential tool to deal with any sort of data, make reports and provide governance tools.
+
+### Is a branch of mathematic? 
+
+Statistics use mathematics to interact and manipulate data, when we are dealing with the application of probability theory inside the statistic we are defacto talking about mathematical statistics, people tend to identify this with  statistics itself saying that  statistics is a branch of mathematics, but this is no more true as saying that engineering is a branch of mathematic [3]
+
+### 
 
 
 
@@ -29,6 +38,8 @@ Statistics is the discipline that concerns the collection, organization, analysi
 
 
 
+[1]"EMATHZONE", "url": "https://www.emathzone.com/tutorials/basic-statistics/definition-of-statistics.html"
 
-
-{{< bibliography >}}
+[2]"Wiki-Statistica","url": "https://it.wikipedia.org/wiki/Statistica"
+[3]"Quora","url": "https://www.quora.com/Is-statistics-a-branch-of-mathematics-or-a-discipline-of-its-own"
+            
