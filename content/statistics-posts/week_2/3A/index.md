@@ -26,41 +26,69 @@ Create an object providing a rectangular area which can be moved and resized usi
 
 
 ### My Solution
-{{< youtube airtd7gfgA4 >}}
+{{< youtube ePe5KlR914c>}}
 
 
-[Code in C#](https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment2/C%23/OnlineArithmeticMean)
+[Code in C#](https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment3/Resiziable%20model)
 
-[Code in VB.net](https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment2/VB.NET/AritMeanDistr)
 
-[Code in zip(mirror)](https://drive.google.com/file/d/1Qv5ttEjqGmwPA4nUcWTi5KP9sYKkm8QJ/view?usp=sharing)
-
-#### Class Elemento Distribuzione in C#
+#### Main Form:
 
 {{< highlight cs >}}
-  class ElementoDisribuzione
+  public partial class Form1 : Form
     {
-       private String name;
-       private  Dictionary<String,Double> variabili;
-    public ElementoDisribuzione(String nome)
+        public Form1()
         {
-            this.name = nome;
-            this.variabili = new Dictionary<string, double>();
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
 
-    public void setVariable(String name,double value) {
-            this.variabili.Add(name, value);
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
-    public bool getVariable(String name,out double ret)
-        { 
-            if (this.variabili.TryGetValue(name, out ret)) return true;
-            else return false;
+        bool allowResize = false;
+        bool allowMove = false;
+        private void resizaileBox_MouseUp(object sender, MouseEventArgs e)
+        {
+            allowResize = false;
+            allowMove = false;
         }
-    public Dictionary<String, Double> getVariabili() {
-            return this.variabili;
+
+        private void resizaileBox_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (allowResize)
+            {
+                this.panel1.Height = resizaileBox.Top + e.Y;
+                this.panel1.Width = resizaileBox.Left + e.X;
+            }
+            if (allowMove)
+            {
+                this.panel1.Location = new Point(this.panel1.Location.X + e.X, this.panel1.Location.Y + e.Y);
+                
+
+                
+            }
         }
+
+        private void resizaileBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resizaileBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right) allowResize = true;
+            else allowMove = true;
+        }
+
+       
 
     }
+  {{< /highlight >}}
 

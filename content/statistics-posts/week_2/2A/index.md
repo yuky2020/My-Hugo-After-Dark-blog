@@ -25,7 +25,7 @@ images = [
 Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it's a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
 
 ### My Solution
-{{< youtube airtd7gfgA4 >}}
+{{< youtube e3GvPX-zsH8 >}}
 
 
 [Code in C#](https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment2/C%23/OnlineArithmeticMean)
