@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 05 Oct 2021 18:50:17 UT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 18:52:20 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/statistic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2_A</title>
@@ -20,13 +20,13 @@
       <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/statistics-posts/week_2/2a/</guid>
-      <description>1_A assignament Request Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it&amp;rsquo;s a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
+      <description>2_A assignament Request Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it&amp;rsquo;s a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
 My Solution   Code in C#
 Code in VB.net
 Code in zip(mirror)
 Class Elemento Distribuzione in C# class ElementoDisribuzione { private String name; private Dictionary&amp;lt;String,Double&amp;gt; variabili; public ElementoDisribuzione(String nome) { this.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[1_A assignament Request Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it&amp;rsquo;s a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
+      <content:encoded><![CDATA[2_A assignament Request Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it&amp;rsquo;s a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
 My Solution   Code in C#
 Code in VB.net
 Code in zip(mirror)
@@ -49,11 +49,11 @@ Class Elemento Distribuzione in C# class ElementoDisribuzione { private String n
       <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/statistics-posts/week_2/3a/</guid>
-      <description>1_A assignament Request Create an object providing a rectangular area which can be moved and resized using the mouse. This area will hold our future charts and graphics.
+      <description>3_A assignament Request Create an object providing a rectangular area which can be moved and resized using the mouse. This area will hold our future charts and graphics.
 My Solution   Code in C#
 Main Form: public partial class Form1 : Form { public Form1() { InitializeComponent(); } private void Form1_Load(object sender, EventArgs e) { } private void panel1_Paint(object sender, PaintEventArgs e) { } bool allowResize = false; bool allowMove = false; private void resizaileBox_MouseUp(object sender, MouseEventArgs e) { allowResize = false; allowMove = false; } private void resizaileBox_MouseMove(object sender, MouseEventArgs e) { if (allowResize) { this.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[1_A assignament Request Create an object providing a rectangular area which can be moved and resized using the mouse. This area will hold our future charts and graphics.
+      <content:encoded><![CDATA[3_A assignament Request Create an object providing a rectangular area which can be moved and resized using the mouse. This area will hold our future charts and graphics.
 My Solution   Code in C#
 Main Form: public partial class Form1 : Form { public Form1() { InitializeComponent(); } private void Form1_Load(object sender, EventArgs e) { } private void panel1_Paint(object sender, PaintEventArgs e) { } bool allowResize = false; bool allowMove = false; private void resizaileBox_MouseUp(object sender, MouseEventArgs e) { allowResize = false; allowMove = false; } private void resizaileBox_MouseMove(object sender, MouseEventArgs e) { if (allowResize) { this.panel1.Height = resizaileBox.Top &#43; e.Y; this.panel1.Width = resizaileBox.Left &#43; e.X; } if (allowMove) { this.panel1.Location = new Point(this.panel1.Location.X &#43; e.X, this.panel1.Location.Y &#43; e.Y); } } private void resizaileBox_Click(object sender, EventArgs e) { } private void resizaileBox_MouseDown(object sender, MouseEventArgs e) { if (e.Button == MouseButtons.Right) allowResize = true; else allowMove = true; } }  ]]></content:encoded>
     </item>

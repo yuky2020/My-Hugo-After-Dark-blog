@@ -19,7 +19,7 @@ images = [
 
 ![header](images/2.png)
 
-## 1_A assignament
+## 2_A assignament
 
 ### Request
 Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it's a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
