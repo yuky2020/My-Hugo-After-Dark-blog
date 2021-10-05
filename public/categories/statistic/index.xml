@@ -12,8 +12,62 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 Oct 2021 11:48:29 UT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 18:50:17 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/categories/statistic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2_A</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_2/2a/</link>
+      <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_2/2a/</guid>
+      <description>1_A assignament Request Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it&amp;rsquo;s a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
+My Solution   Code in C#
+Code in VB.net
+Code in zip(mirror)
+Class Elemento Distribuzione in C# class ElementoDisribuzione { private String name; private Dictionary&amp;lt;String,Double&amp;gt; variabili; public ElementoDisribuzione(String nome) { this.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[1_A assignament Request Create - in both languages C# and VB.NET - a demonstrative program which computes the online arithmetic mean (if it&amp;rsquo;s a numeric variable) and your own algo to compute the distribution for a discrete variable and for a continuous variable (can use values simulated with RANDOM object).
+My Solution   Code in C#
+Code in VB.net
+Code in zip(mirror)
+Class Elemento Distribuzione in C# class ElementoDisribuzione { private String name; private Dictionary&amp;lt;String,Double&amp;gt; variabili; public ElementoDisribuzione(String nome) { this.name = nome; this.variabili = new Dictionary&amp;lt;string, double&amp;gt;(); } public void setVariable(String name,double value) { this.variabili.Add(name, value); } public bool getVariable(String name,out double ret) { if (this.variabili.TryGetValue(name, out ret)) return true; else return false; } public Dictionary&amp;lt;String, Double&amp;gt; getVariabili() { return this.variabili; } } Class MediaCalOnline in C# class MediaCalOnline { Dictionary&amp;lt;String, double&amp;gt; medieAritmetica; Dictionary&amp;lt;String, int&amp;gt; numeroElementi; public MediaCalOnline() { medieAritmetica = new Dictionary&amp;lt;string, double&amp;gt;(); numeroElementi = new Dictionary&amp;lt;String, int&amp;gt;(); } public void addAttribute(String nome, double value) { double tmp; int i; if (medieAritmetica.ContainsKey(nome)) { medieAritmetica.TryGetValue(nome, out tmp); numeroElementi.TryGetValue(nome, out i); i&#43;&#43;; tmp = tmp &#43; (value - tmp) / i; numeroElementi.Remove(nome); medieAritmetica.Remove(nome); medieAritmetica.Add(nome, tmp); numeroElementi.Add(nome, i); } else { medieAritmetica.Add(nome, value); numeroElementi.Add(nome, 1); } } public bool getMedia(String name,out double i) { if (medieAritmetica.TryGetValue(name, out i)) return true; else return false; } public void addElemento(ElementoDisribuzione e) { foreach (var item in e.getVariabili()) addAttribute(item.Key, item.Value); } } Class Distribuzione in C# class Distribuzione { private Dictionary&amp;lt;String, SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt;&amp;gt; distr; double intervall = 10; public Distribuzione() { distr = new Dictionary&amp;lt;String, SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt;&amp;gt;(); } //intervall standard 10  public void addAttributDef(String s, double i) { addAttribute(s, i, intervall); } public void addAttribute(String s, double value, double inte) { SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt; actualdistr; double min, max; int i = 1; min = value - (value % inte); max = value &#43; (inte - (value % inte)); Tuple&amp;lt;double, double&amp;gt; tmp = new Tuple&amp;lt;double, double&amp;gt;(min, max); if (!distr.TryGetValue(s, out actualdistr)) { actualdistr = new SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt;(); actualdistr.Add(tmp, 1); distr.Add(s, actualdistr); } else { if (!actualdistr.TryGetValue(tmp, out i)) actualdistr.Add(tmp, 1); else { i&#43;&#43;; actualdistr.Remove(tmp); actualdistr.Add(tmp, i); } distr.Remove(s); distr.Add(s, actualdistr); } } public void addElemento(ElementoDisribuzione e, double inter) { foreach (var item in e.getVariabili()) { this.addAttribute(item.Key, item.Value, inter); } } public void addElementoDef(ElementoDisribuzione e) { addElemento(e, intervall); } public bool getdistribuzione(string s, out SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt; req) { if (distr.TryGetValue(s, out req)) return true; else return false; } }  Main Form in C# public partial class Form1 : Form { public Form1() { InitializeComponent(); } Random r = new Random(); MediaCalOnline mc=new MediaCalOnline(); Distribuzione dc = new Distribuzione(); private void Form1_Load(object sender, EventArgs e) { } private void button1_Click(object sender, EventArgs e) { timer1.Interval = 2; timer1.Start(); button3.Visible = true; button2.Visible = true; button1.Visible = false; } private void button2_Click(object sender, EventArgs e) { timer2.Interval = 10; timer2.Start(); button2.Visible = false; } private void timer1_Tick(object sender, EventArgs e) { double height; ElementoDisribuzione studente = new ElementoDisribuzione(&amp;#34;Student&amp;#34;); height =r.NextDouble()&#43;r.Next(140,200); studente.setVariable(&amp;#34;height&amp;#34;, height); mc.addElemento(studente); dc.addElementoDef(studente); richTextBox1.Text &#43;= &amp;#34;nuovo Studente altezza: &amp;#34; &#43; height &#43; Environment.NewLine; } private void timer2_Tick(object sender, EventArgs e) { double i; SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt; distTest =new SortedDictionary&amp;lt;Tuple&amp;lt;double, double&amp;gt;, int&amp;gt;(); mc.getMedia(&amp;#34;height&amp;#34;, out i); if (dc.getdistribuzione(&amp;#34;height&amp;#34;, out distTest)) { richTextBox3.Text = &amp;#34;&amp;#34;; foreach (var item in distTest) { richTextBox3.Text &#43;= item.Key.Item1 &#43; &amp;#34;-&amp;#34; &#43; item.Key.Item2 &#43; &amp;#34; presenta &amp;#34; &#43; item.Value &#43; &amp;#34; entita &amp;#34;&#43;Environment.NewLine; } } richTextBox2.Text = &amp;#34;the A M of the height is&amp;#34; &#43; i &#43; Environment.NewLine; } private void button3_Click(object sender, EventArgs e) { timer1.Stop(); timer2.Stop(); button1.Visible = true; button2.Visible = true; } } ]]></content:encoded>
+    </item>
+    <item>
+      <title>2_R</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_2/2r/</link>
+      <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_2/2r/</guid>
+      <description>2_R assignament Request Describe the most common configuration of data repositories in the real world and corporate environment. Concepts such as Operational or Transactional systems (OLTP), Data Warehouse DW, Data Marts, Analytical and statistical systems (OLAP), etc. Try to draw a conceptual picture of how all these components may work together and how the flow of data and information is processed to extract useful knowledge from raw data.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[2_R assignament Request Describe the most common configuration of data repositories in the real world and corporate environment. Concepts such as Operational or Transactional systems (OLTP), Data Warehouse DW, Data Marts, Analytical and statistical systems (OLAP), etc. Try to draw a conceptual picture of how all these components may work together and how the flow of data and information is processed to extract useful knowledge from raw data.
+]]></content:encoded>
+    </item>
+    <item>
+      <title>3_A</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_2/3a/</link>
+      <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_2/3a/</guid>
+      <description>1_A assignament Request Create an object providing a rectangular area which can be moved and resized using the mouse. This area will hold our future charts and graphics.
+My Solution   Code in C#
+Main Form: public partial class Form1 : Form { public Form1() { InitializeComponent(); } private void Form1_Load(object sender, EventArgs e) { } private void panel1_Paint(object sender, PaintEventArgs e) { } bool allowResize = false; bool allowMove = false; private void resizaileBox_MouseUp(object sender, MouseEventArgs e) { allowResize = false; allowMove = false; } private void resizaileBox_MouseMove(object sender, MouseEventArgs e) { if (allowResize) { this.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[1_A assignament Request Create an object providing a rectangular area which can be moved and resized using the mouse. This area will hold our future charts and graphics.
+My Solution   Code in C#
+Main Form: public partial class Form1 : Form { public Form1() { InitializeComponent(); } private void Form1_Load(object sender, EventArgs e) { } private void panel1_Paint(object sender, PaintEventArgs e) { } bool allowResize = false; bool allowMove = false; private void resizaileBox_MouseUp(object sender, MouseEventArgs e) { allowResize = false; allowMove = false; } private void resizaileBox_MouseMove(object sender, MouseEventArgs e) { if (allowResize) { this.panel1.Height = resizaileBox.Top &#43; e.Y; this.panel1.Width = resizaileBox.Left &#43; e.X; } if (allowMove) { this.panel1.Location = new Point(this.panel1.Location.X &#43; e.X, this.panel1.Location.Y &#43; e.Y); } } private void resizaileBox_Click(object sender, EventArgs e) { } private void resizaileBox_MouseDown(object sender, MouseEventArgs e) { if (e.Button == MouseButtons.Right) allowResize = true; else allowMove = true; } }  ]]></content:encoded>
+    </item>
+    <item>
+      <title>3_R</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_2/3r/</link>
+      <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_2/3r/</guid>
+      <description>3_R assignament Request Show how we can obtain an online algo for the arithmetic mean and explain the various possible reasons why it is preferable to the &amp;ldquo;naive&amp;rdquo; algo based on the definition.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[3_R assignament Request Show how we can obtain an online algo for the arithmetic mean and explain the various possible reasons why it is preferable to the &amp;ldquo;naive&amp;rdquo; algo based on the definition.
+]]></content:encoded>
+    </item>
     <item>
       <title>1_R</title>
       <link>https://www.matteobianchi.eu/statistics-posts/week_1/1r/</link>
