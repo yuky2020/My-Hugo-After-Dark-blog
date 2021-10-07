@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 07 Oct 2021 18:34:32 UT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Oct 2021 18:36:50 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/after/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1_RA</title>
@@ -20,10 +20,10 @@
       <pubDate>Tue, 05 Oct 2021 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
       <guid>https://www.matteobianchi.eu/statistics-posts/week_2/1ra/</guid>
-      <description>3_R assignament Request Understand how the floating point representation works and describe systematically (possibly using categories) all the possible problems that can happen. Try to classify the various issues and limitations (representation, comparison, rounding, propagation, approximation, loss of significance, cancellation, etc.) and provide simple examples for each of the categories you have identified
+      <description>1_RA assignament Request Understand how the floating point representation works and describe systematically (possibly using categories) all the possible problems that can happen. Try to classify the various issues and limitations (representation, comparison, rounding, propagation, approximation, loss of significance, cancellation, etc.) and provide simple examples for each of the categories you have identified
 Floating point notation It&amp;rsquo;s a fantastic thing, we could express a vast range of value in a very efficent way: 32 bit notation: The frist bit is for sign, then 8 bit of exponent (frist bit is sign of the exponent ) so from 2^-127 to 2^127 and then 23 bit of mantissa.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[3_R assignament Request Understand how the floating point representation works and describe systematically (possibly using categories) all the possible problems that can happen. Try to classify the various issues and limitations (representation, comparison, rounding, propagation, approximation, loss of significance, cancellation, etc.) and provide simple examples for each of the categories you have identified
+      <content:encoded><![CDATA[1_RA assignament Request Understand how the floating point representation works and describe systematically (possibly using categories) all the possible problems that can happen. Try to classify the various issues and limitations (representation, comparison, rounding, propagation, approximation, loss of significance, cancellation, etc.) and provide simple examples for each of the categories you have identified
 Floating point notation It&amp;rsquo;s a fantastic thing, we could express a vast range of value in a very efficent way: 32 bit notation: The frist bit is for sign, then 8 bit of exponent (frist bit is sign of the exponent ) so from 2^-127 to 2^127 and then 23 bit of mantissa.
 Limitation A floating-point format has limited range and precision. These limitations can be understood by considering using scientific notation with a limited range of exponents and a limited number of digits in the mantissa.
   Range limitation: A fixed number of &amp;ldquo;Exp&amp;rdquo; bits is comparable to limiting the size of the exponent in scientific notation.
