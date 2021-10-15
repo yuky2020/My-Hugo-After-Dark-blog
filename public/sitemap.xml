@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.matteobianchi.eu/</loc>
+    <lastmod>2021-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/</loc>
+    <lastmod>2021-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/week_3/</loc>
+    <lastmod>2021-10-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.matteobianchi.eu/statistics-posts/week_2/1ra/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
@@ -11,10 +20,25 @@
     <loc>https://www.matteobianchi.eu/statistics-posts/week_2/2r/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/week_3/2ra/</loc>
+    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
+  </url><url>
     <loc>https://www.matteobianchi.eu/statistics-posts/week_2/3a/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
     <loc>https://www.matteobianchi.eu/statistics-posts/week_2/3r/</loc>
+    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/week_3/3ra/</loc>
+    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/week_3/4a/</loc>
+    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/week_3/4r/</loc>
+    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
+  </url><url>
+    <loc>https://www.matteobianchi.eu/statistics-posts/week_3/5a/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
     <loc>https://www.matteobianchi.eu/tags/after/</loc>
@@ -23,16 +47,10 @@
     <loc>https://www.matteobianchi.eu/categories/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
-    <loc>https://www.matteobianchi.eu/</loc>
-    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
-  </url><url>
     <loc>https://www.matteobianchi.eu/tags/statistic/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
     <loc>https://www.matteobianchi.eu/categories/statistic/</loc>
-    <lastmod>2021-10-05T20:03:36+02:00</lastmod>
-  </url><url>
-    <loc>https://www.matteobianchi.eu/statistics-posts/</loc>
     <lastmod>2021-10-05T20:03:36+02:00</lastmod>
   </url><url>
     <loc>https://www.matteobianchi.eu/tags/</loc>
