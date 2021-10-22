@@ -50,7 +50,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 [[params.layout.home.section]]
   type = "statistics-posts"
   thumbs = ["fill", "400x400"]
-  limit =8
+  limit =16
   weight = 1
   
 [[params.layout.home.section]]
