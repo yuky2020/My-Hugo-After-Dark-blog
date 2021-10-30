@@ -28,25 +28,32 @@ Explain the Bayes Theorem and its key role in statistical induction. Describe th
 
 
 ### The Bayes Theorem 
+Bayes' theorem is used to calculate the probability of a cause that triggered the occurred event, and the importance of this theorem for statistics is such that different interpretation and usage divided  the statisticians into  two schools  Bayesian  and Frequentist
+
+P(A|B)=(P(B|A)P(A))/P(B)
 
 
+### Frequentist and Bayesian statistics
 
+we called this therm prior probability.
 
-
-
-
-
-### Statistical infernce paradigm
-Analyse the difference between a “Bayesian” and a “frequentist” approach.
-
+#### Frequentist
+According to the frequentist definition of probability, only repeatable random events (like a dice rool) have probabilities. These probabilities are equal to the long-term frequency of occurrence of the events in question. Frequentists don’t attach probabilities to hypotheses or to any fixed but unknown values in general. [1]
 Basically, a frequentist method makes predictions on the underlying truths of the experiment using only data from the current experiment.
 
+#### Bayesian
+Bayesians view probabilities as a more general concept a Bayesian can use probabilities to represent the uncertainty in any event or hypothesis. [1]
+
+### Statistical infernce paradigm
 
 So, the biggest distinction is that Bayesian probability specifies that there is some prior probability.
+The division between the two schools of thought occurs because of the term P(B) (P(θ) in the classroom)
+| The Frequentist                                                 | The Bayesian                                                                     |
+|:----------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| chose to ignore the term and assign it a uniform distribution | choose to use a certain already calculated shape distribution(like bernulli etc..) |
 
-We saw this difference during the lecture by examining the formula:
 
 
-The division between the two schools of thought occurs because of the term P(θ).
 
-We don’t have the value of the term at prior, the frequentist have chosen to ignore the term and assign it a uniform distribution, while Bayesians have chosen to use a certain already calculated shape.
+
+[1]"url","https://en.wikipedia.org/wiki/Bayes%27_theor"
