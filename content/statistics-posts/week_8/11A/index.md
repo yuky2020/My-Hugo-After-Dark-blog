@@ -30,14 +30,179 @@ Represent also the distributions of the following quantities (and any other quan
 
 ### My Solution
 
-{{< youtube btWiAAvVsho >}}
+{{< youtube UaO_tyuwBZE>}}
 
 
-[Code in C#](https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment9/C%23)
+[Code in C#]https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment10/C%23/BernulliGraphics)
 
 
-#### Methods for calculate empirical CDS  in C#
+#### The part in disegna Grafici in witch i call the various usefull function
 
 {{< highlight cs >}}
-    
+      {
+                distrubution = new BernulliPathfinder(n, m, lambda);
+
+                disegnaPaths(fromPathstoViewport(distrubution.Get_paths(), viewPort));
+
+                disegnaHistogramma(viewPort, getDistribution(distrubution.Get_paths(), m / SCALE, j), n, j);
+                disegnaHistogramma(viewPort, getDistribution(distrubution.Get_paths(), m / SCALE, n), n, n);
+                //disegno le distanze
+                disegnaDistanze(viewPort, individualJumpFromOriginD(distrubution.Get_paths()), 0, "Single jump distace ");
+                disegnaDistanze(viewPort, doublejumpD(distrubution.Get_paths()), 80, "Double jump distance");
+
+            }
+{{< /highlight >}}
+
+the class for writing the histogram and for get the distribution are the same as the precedent hw
+so i will skip it,but bernulli pathfinder now work with lamba insted of p 
+
+#### Bernoulli pathfinder class
+{{< highlight cs >}}
+      public class BernulliPathfinder: Pathfinder
+    {
+       
+
+        int m;      //number of paths
+        int n;      //number of points 
+        double p;   //probability
+        public List<Strade> paths = new List<Strade>();
+        private Random R;
+
+        public BernulliPathfinder(int n, int m, double p)
+        {
+            this.m = m;
+            this.n = n;
+            this.p = p;
+
+            this.R = new Random();
+
+            for (int i=0; i < m; i++)
+            {
+                paths.Add(new Strade(createBernulliList()));
+            }
+            
+        
+
+        }
+
+        private int bernoulli_Result(double p,int n)
+        {
+           double random_outcome = R.NextDouble();
+
+            if (random_outcome <= p/n) return 1;
+            else return 0;
+        }
+
+        private List<double> createBernulliList()
+        {
+            List<double> bernoulli = new List<double>();
+
+            for (int i = 0; i < n; i++)
+            {
+                bernoulli.Add(bernoulli_Result(p, n));
+            }
+
+            return bernoulli;
+        }
+       public List<Strade> Get_paths()
+        {
+            return this.paths;
+        }
+
+
+
+    }
+{{< /highlight >}}
+
+#### Disegna Distanze method
+{{< highlight cs >}}
+     private void disegnaDistanze(Rectangle viewPort, Dictionary<int, int> intervals, int offset, String text)
+        {
+            int i = 0;
+            SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(128, 0, 0, 0));
+
+            foreach (var v in intervals)
+            {
+                int x, y;
+                int width, height;
+                // in this case on the fly trasformation is way faster
+                x = (int)(this.viewPort.Left + 20 * i);
+                y = (int)(viewPort.Top + viewPort.Height + offset);
+
+
+                width = v.Value;
+                height = viewPort.Height / intervals.Count;
+
+                Rectangle rectangle = new Rectangle(x, y, width, height);
+
+                g2.DrawRectangle(Pens.Black, rectangle);
+                g2.FillRectangle(semiTransBrush, rectangle);
+
+                g2.FillRectangle(Brushes.Violet, rectangle);
+                g2.DrawString(v.Key.ToString(), new Font("Calibri", 10.0f,
+                                 FontStyle.Regular, GraphicsUnit.Pixel), semiTransBrush, new Point(x, y));
+                i++;
+            }
+            g2.DrawString(text, new Font("Calibri", 13.0f,
+                               FontStyle.Italic, GraphicsUnit.Pixel), semiTransBrush, new Point(this.viewPort.Left - 140, (viewPort.Top + viewPort.Height + offset)));
+
+        }
+{{< /highlight >}}
+#### Individual jump
+{{< highlight cs >}}
+     private Dictionary<int, int> individualJumpFromOriginD(List<Strade> strades)
+        {
+            Dictionary<int, int> dbj = new Dictionary<int, int>();
+            int i = 0;
+            int tmp = 1;
+            Boolean trov = false;
+            foreach (Strade s in strades)
+            {
+                i = 0;
+                tmp = 1;
+                trov = false;
+                while (!trov && (i < s.getPath().Count() - 2))
+                {
+                    if (s.getPath()[i].Y != s.getPath()[i + 1].Y) trov = true;
+                    i++;
+                }
+                i++;
+                if (dbj.TryGetValue(i, out tmp))
+                {
+                    dbj.Remove(i);
+                    dbj.Add(i, tmp + 1);
+                }
+                else dbj.Add(i, tmp);
+            }
+            return dbj;
+        }
+{{< /highlight >}}
+#### Double jump 
+{{< highlight cs >}}
+    private Dictionary<int, int> doublejumpD(List<Strade> strades)
+        {
+            Dictionary<int, int> dbj = new Dictionary<int, int>();
+            int i = 0;
+            int tmp = 1;
+            Boolean trov = false;
+            foreach (Strade s in strades)
+            {
+                i = 0;
+                tmp = 1;
+                trov = false;
+                while (!trov && (i < s.getPath().Count() - 2))
+                {
+                    if (s.getPath()[i].Y != s.getPath()[i + 1].Y && s.getPath()[i + 1].Y != s.getPath()[i + 2].Y) trov = true;
+                    i++;
+                }
+                i = i + 1;
+                if (dbj.TryGetValue(i, out tmp))
+                {
+                    dbj.Remove(i);
+                    dbj.Add(i, tmp + 1);
+                }
+                else dbj.Add(i, tmp);
+            }
+            return dbj;
+        }
 {{< /highlight >}}

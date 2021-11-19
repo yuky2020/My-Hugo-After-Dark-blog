@@ -54,3 +54,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     {{ partial "copyright-notice.html" . }}
   </small>
 {{ end }}
+{{ if or .Params.math .Site.Params.math }}
+  {{ partial "math.html" . }}
+{{ end }}

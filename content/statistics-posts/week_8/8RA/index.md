@@ -13,8 +13,7 @@ images = [
 
 [[resources]]
   src = "images/1.jpg"
-  name = "heade
-  thumbnail"
+  name = "header thumbnail"
 
 +++
 
