@@ -1,18 +1,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>Week 7 HW on Matteo Bianchi personal site and blog</title>
+    <title>Week 8 HW on Matteo Bianchi personal site and blog</title>
     <link>https://www.matteobianchi.eu/statistics-posts/week_8/</link>
-    <description>Recent content in Week 7 HW on Matteo Bianchi personal site and blog</description>
+    <description>Recent content in Week 8 HW on Matteo Bianchi personal site and blog</description>
     <image>
-      <title>Week 7 HW on Matteo Bianchi personal site and blog</title>
+      <title>Week 8 HW on Matteo Bianchi personal site and blog</title>
       <link>https://www.matteobianchi.eu/statistics-posts/week_8/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Nov 2021 17:56:53 UT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Nov 2021 18:04:12 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/statistics-posts/week_8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10_R</title>
