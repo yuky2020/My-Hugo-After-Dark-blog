@@ -12,8 +12,17 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Nov 2021 18:04:12 UT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Nov 2021 23:59:00 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/statistics-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 9 HW</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_9/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_9/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>Week 8 HW</title>
       <link>https://www.matteobianchi.eu/statistics-posts/week_8/</link>

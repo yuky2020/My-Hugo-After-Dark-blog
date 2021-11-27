@@ -12,8 +12,31 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Nov 2021 18:04:12 UT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Nov 2021 23:59:00 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/after/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12R</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_9/12r/</link>
+      <pubDate>Sun, 21 Nov 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_9/12r/</guid>
+      <description>12_R assignament Request What is the &amp;ldquo;Brownian motion&amp;rdquo; and what is a Wiener process. History, importance, definition and applications (Bachelier, Wiener, Einstein, &amp;hellip;):
+Brownian Motion Brownian motion refers to either the physical phenomenon that minute particles immersed in a fluid move around randomly or the mathematical models used to describe those random movements.[1]
+Brownian motion was discovered by the biologist Robert Brown in 1827.
+While Brown was studying pollen particles floating in water in the microscope, he observed minute particles in the pollen grains executing the jittery motion.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[12_R assignament Request What is the &amp;ldquo;Brownian motion&amp;rdquo; and what is a Wiener process. History, importance, definition and applications (Bachelier, Wiener, Einstein, &amp;hellip;):
+Brownian Motion Brownian motion refers to either the physical phenomenon that minute particles immersed in a fluid move around randomly or the mathematical models used to describe those random movements.[1]
+Brownian motion was discovered by the biologist Robert Brown in 1827.
+While Brown was studying pollen particles floating in water in the microscope, he observed minute particles in the pollen grains executing the jittery motion.
+After repeating the experiment with particles of dust, he was able to conclude that the motion was due to pollen being “alive” but the origin of the motion remained unexplained.
+The first one to give a theory of Brownian motion was Louis Bachelier in 1900 in his PhD thesis “The theory of speculation”. However, it was only in 1905 that Albert Einstein, using a probabilistic model, could sufficiently explain Brownian motion. He observed that if the kinetic energy of fluids was right, the molecules of water moved at random.
+Thus, a small particle would receive a random number of impacts of random strength and from random directions in any short period of time. This random bombardment by the molecules of the fluid would cause a sufficiently small particle to move exactly just how Brown described it.
+Wiener process In mathematics, Brownian motion is described by the Wiener process, a continuous-time stochastic process named in honor of Norbert Wiener. It is one of the best known Lévy processes (càdlàg stochastic processes with stationary independent increments) and occurs frequently in pure and applied mathematics, economics and physics.
+The Wiener process Wt is characterized by four facts:
+ W0 = 0 Wt is almost surely continuous Wt has independent increments Wt-Ws ~ N(0,t-s)(for 0&amp;lt;= s&amp;lt;=t) Brownian motion is a well-suited model for a wide range of real random phenomena, from chaotic oscillations of microscopic objects, such as flower pollen in water, to stock market fluctuations. It is also a purely abstract mathematical tool which can be used to prove theorems in “deterministic” fields of mathematics.  [1]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://en.wikipedia.org/wiki/Brownian_motion&amp;quot;
+]]></content:encoded>
+    </item>
     <item>
       <title>10_R</title>
       <link>https://www.matteobianchi.eu/statistics-posts/week_8/10r/</link>
@@ -57,6 +80,24 @@ The maximum value for the correlation is r = 1, which means that 100% of the pai
 ]]></content:encoded>
     </item>
     <item>
+      <title>13_R</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_9/13r/</link>
+      <pubDate>Fri, 05 Nov 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_9/13r/</guid>
+      <description>13_R assignament Request An &amp;ldquo;analog&amp;rdquo; of the CLT for stochastic process: the standard Wiener process as &amp;ldquo;scaling limit&amp;rdquo; of a random walk and the functional CLT (Donsker theorem) or invariance principle. Explain the intuitive meaning of this result and how you have already illustrated the result in your homework.
+Donsker’s theorem In probability theory, Donsker’s theorem (also known as Donsker’s invariance principle, or the functional central limit theorem), named after Monroe D.</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[13_R assignament Request An &amp;ldquo;analog&amp;rdquo; of the CLT for stochastic process: the standard Wiener process as &amp;ldquo;scaling limit&amp;rdquo; of a random walk and the functional CLT (Donsker theorem) or invariance principle. Explain the intuitive meaning of this result and how you have already illustrated the result in your homework.
+Donsker’s theorem In probability theory, Donsker’s theorem (also known as Donsker’s invariance principle, or the functional central limit theorem), named after Monroe D. Donsker, is a functional extension of the central limit theorem.[1 ]
+Let X1,X2,X3&amp;hellip; be a sequence of independent and identically distributed random variables with mean 0 and variance 1. and lets take S:= (Sn) where Sn is the sum of all Xi
+The stochastic process S is known as a random walk. Define the diffusively rescaled random walk (partial-sum process) by:
+The central limit theorem asserts that W^(n)(1) converges in distribution to a standard Gaussian random variable W(1) when n -&amp;gt; ∞.
+Donsker’s invariance principle extends this convergence to the whole function W^(n):=hj(W^(n)(t) with t in 0,1
+So Donkers&amp;rsquo;s theorem states that as random varabile taken values in a Skorokhod space the random function W^(n) converges in distribution to a standard Brownian motion for n -&amp;gt; ∞.(Donsker&amp;rsquo;s invariance principle). This concept is used among the other field for assets price inference [1]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://en.wikipedia.org/wiki/Donsker%27s_theorem &amp;quot;
+]]></content:encoded>
+    </item>
+    <item>
       <title>8_RA</title>
       <link>https://www.matteobianchi.eu/statistics-posts/week_8/8ra/</link>
       <pubDate>Fri, 05 Nov 2021 18:03:36 UT</pubDate>
@@ -74,6 +115,27 @@ Let λ&amp;gt;0 be fixed. The counting process {N(t),t∈[0,∞)} is called a Po
  N(0)=0; N(t) has independent increments; the number of arrivals in any interval of length τ&amp;gt;0 has Poisson(λτ) distribution.  Poisson Distributions A discrete random variable X is said to have a Poisson distribution, with parameter λ&amp;gt;0 if it has a probability mass function given by:
 here:
  k is the number of occurrences (k=0,1,2&amp;hellip;) e is Euler&amp;rsquo;s number ( e=2.71828&amp;hellip;) ! is the factorial function.  [1]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.phpk&amp;quot; [2]&amp;ldquo;url&amp;quot;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/course-notes/MIT6_262S11_chap02.pdf&amp;rdquo; [3]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://towardsdatascience.com/the-poisson-distribution-and-poisson-process-explained-4e2cb17d459&amp;quot; [4]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://en.wikipedia.org/wiki/Poisson_distributiohttps://en.wikipedia.org/wiki/Poisson_distributionn&amp;quot;
+]]></content:encoded>
+    </item>
+    <item>
+      <title>9_RA</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_9/9ra/</link>
+      <pubDate>Fri, 05 Nov 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_9/9ra/</guid>
+      <description>9_RA assignament Request Try to find on the web what are the names of the random variables that you just simulated in the applications, and see if the means and variances that you obtain in the simulation are compatible with the &amp;ldquo;theory&amp;rdquo;. If not fix the possible bugs.
+Brawnian motion In our application we can observe the behavior of the brownian motion properties.
+  Is verified observing from the image that the starting point is x=0 y=0</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[9_RA assignament Request Try to find on the web what are the names of the random variables that you just simulated in the applications, and see if the means and variances that you obtain in the simulation are compatible with the &amp;ldquo;theory&amp;rdquo;. If not fix the possible bugs.
+Brawnian motion In our application we can observe the behavior of the brownian motion properties.
+  Is verified observing from the image that the starting point is x=0 y=0
+  Is verified by observing that the graphic is continuous in every path.
+  Is verified by the fact that increments are independent and random, in fact all the values generated have the the same probability of being chosen. No increment will therefore influence the next one.
+  The histograms represent the distribution of the brownian motion which is a realization of a normal distribution, we found infact that more sample we take the more the histograms take the beel form(the form of a normal distribution).
+  Normal distributions realization In the last homework we take an important distributions the Normal(0,1) and make some trasformation:
+ Exp(N(0,1)) this is very intresting in fact we found it when we talk about Log-normal distribution[1]. Squared N(0,1) this is called chi-squared distribution with one degree of freedom {A chi-squared distribution constructed by squaring a single standard normal distribution is said to have 1 degree of freedom.Just as extreme values of the normal distribution have low probability (and give small p-values), extreme values of the chi-squared distribution have low probability.[2]}  The generalazied sum of different(k) squared normal distribution make the grade of freedoom higher(k degree of freedoom); an important result is that since this distribution is the sum of k independent random variables with finite mean and variance, it converges to a normal distribution for large k.This is for sure insured by The CTL. For many practical purposes, for k&amp;gt;50 the distribution is sufficiently close to a normal distribution for the difference to be ignored.
+[1]&amp;ldquo;url&amp;rdquo;:&amp;ldquo;https://en.wikipedia.org/wiki/Log-normal_distribution&amp;quot; [2]&amp;ldquo;url&amp;rdquo;:&amp;ldquo;https://en.wikipedia.org/wiki/Chi-squared_distribution#:~:text=A%20chi%2Dsquared%20distribution%20constructed,have%201%20degree%20of%20freedom.&amp;amp;text=Just%20as%20extreme%20values%20of,squared%20distribution%20have%20low%20probability.&amp;quot;
 ]]></content:encoded>
     </item>
     <item>
@@ -102,6 +164,50 @@ Class for graphicate the histogram&amp;rsquo;s private void disegnaIstogrammi(Re
  Distance (time elapsed) of individual jumps from the origin Distance (time elapsed) between consecutive jumps (&amp;ldquo;holding times&amp;rdquo;)  My Solution   [Code in C#]https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment10/C%23/BernulliGraphics)
 The part in disegna Grafici in witch i call the various usefull function { distrubution = new BernulliPathfinder(n, m, lambda); disegnaPaths(fromPathstoViewport(distrubution.Get_paths(), viewPort)); disegnaHistogramma(viewPort, getDistribution(distrubution.Get_paths(), m / SCALE, j), n, j); disegnaHistogramma(viewPort, getDistribution(distrubution.Get_paths(), m / SCALE, n), n, n); //disegno le distanze  disegnaDistanze(viewPort, individualJumpFromOriginD(distrubution.Get_paths()), 0, &amp;#34;Single jump distace &amp;#34;); disegnaDistanze(viewPort, doublejumpD(distrubution.Get_paths()), 80, &amp;#34;Double jump distance&amp;#34;); }  the class for writing the histogram and for get the distribution are the same as the precedent hw so i will skip it,but bernulli pathfinder now work with lamba insted of p
 Bernoulli pathfinder class public class BernulliPathfinder: Pathfinder { int m; //number of paths  int n; //number of points  double p; //probability  public List&amp;lt;Strade&amp;gt; paths = new List&amp;lt;Strade&amp;gt;(); private Random R; public BernulliPathfinder(int n, int m, double p) { this.m = m; this.n = n; this.p = p; this.R = new Random(); for (int i=0; i &amp;lt; m; i&#43;&#43;) { paths.Add(new Strade(createBernulliList())); } } private int bernoulli_Result(double p,int n) { double random_outcome = R.NextDouble(); if (random_outcome &amp;lt;= p/n) return 1; else return 0; } private List&amp;lt;double&amp;gt; createBernulliList() { List&amp;lt;double&amp;gt; bernoulli = new List&amp;lt;double&amp;gt;(); for (int i = 0; i &amp;lt; n; i&#43;&#43;) { bernoulli.Add(bernoulli_Result(p, n)); } return bernoulli; } public List&amp;lt;Strade&amp;gt; Get_paths() { return this.paths; } }  Disegna Distanze method private void disegnaDistanze(Rectangle viewPort, Dictionary&amp;lt;int, int&amp;gt; intervals, int offset, String text) { int i = 0; SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(128, 0, 0, 0)); foreach (var v in intervals) { int x, y; int width, height; // in this case on the fly trasformation is way faster  x = (int)(this.viewPort.Left &#43; 20 * i); y = (int)(viewPort.Top &#43; viewPort.Height &#43; offset); width = v.Value; height = viewPort.Height / intervals.Count; Rectangle rectangle = new Rectangle(x, y, width, height); g2.DrawRectangle(Pens.Black, rectangle); g2.FillRectangle(semiTransBrush, rectangle); g2.FillRectangle(Brushes.Violet, rectangle); g2.DrawString(v.Key.ToString(), new Font(&amp;#34;Calibri&amp;#34;, 10.0f, FontStyle.Regular, GraphicsUnit.Pixel), semiTransBrush, new Point(x, y)); i&#43;&#43;; } g2.DrawString(text, new Font(&amp;#34;Calibri&amp;#34;, 13.0f, FontStyle.Italic, GraphicsUnit.Pixel), semiTransBrush, new Point(this.viewPort.Left - 140, (viewPort.Top &#43; viewPort.Height &#43; offset))); }  Individual jump private Dictionary&amp;lt;int, int&amp;gt; individualJumpFromOriginD(List&amp;lt;Strade&amp;gt; strades) { Dictionary&amp;lt;int, int&amp;gt; dbj = new Dictionary&amp;lt;int, int&amp;gt;(); int i = 0; int tmp = 1; Boolean trov = false; foreach (Strade s in strades) { i = 0; tmp = 1; trov = false; while (!trov &amp;amp;&amp;amp; (i &amp;lt; s.getPath().Count() - 2)) { if (s.getPath()[i].Y != s.getPath()[i &#43; 1].Y) trov = true; i&#43;&#43;; } i&#43;&#43;; if (dbj.TryGetValue(i, out tmp)) { dbj.Remove(i); dbj.Add(i, tmp &#43; 1); } else dbj.Add(i, tmp); } return dbj; }  Double jump private Dictionary&amp;lt;int, int&amp;gt; doublejumpD(List&amp;lt;Strade&amp;gt; strades) { Dictionary&amp;lt;int, int&amp;gt; dbj = new Dictionary&amp;lt;int, int&amp;gt;(); int i = 0; int tmp = 1; Boolean trov = false; foreach (Strade s in strades) { i = 0; tmp = 1; trov = false; while (!trov &amp;amp;&amp;amp; (i &amp;lt; s.getPath().Count() - 2)) { if (s.getPath()[i].Y != s.getPath()[i &#43; 1].Y &amp;amp;&amp;amp; s.getPath()[i &#43; 1].Y != s.getPath()[i &#43; 2].Y) trov = true; i&#43;&#43;; } i = i &#43; 1; if (dbj.TryGetValue(i, out tmp)) { dbj.Remove(i); dbj.Add(i, tmp &#43; 1); } else dbj.Add(i, tmp); } return dbj; }  ]]></content:encoded>
+    </item>
+    <item>
+      <title>12_A</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_9/12a/</link>
+      <pubDate>Thu, 28 Oct 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_9/12a/</guid>
+      <description>12_A assignament Request Discover one of the most important stochastic process by yourself !
+Consider the general scheme we have used so far to simulate stochastic processes (such as the relative frequency of success in a sequence of trials, the sample mean, the random walk, the Poisson point process, etc.) and now add this new process to our simulator.
+Starting from value 0 at time 0, for each of m paths, at each new time compute P(t) = P(t-1) &#43; Random step(t), for t = 1, &amp;hellip;, n, where the Random step(t) is now:</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[12_A assignament Request Discover one of the most important stochastic process by yourself !
+Consider the general scheme we have used so far to simulate stochastic processes (such as the relative frequency of success in a sequence of trials, the sample mean, the random walk, the Poisson point process, etc.) and now add this new process to our simulator.
+Starting from value 0 at time 0, for each of m paths, at each new time compute P(t) = P(t-1) &#43; Random step(t), for t = 1, &amp;hellip;, n, where the Random step(t) is now:
+σ * sqrt(1/n) * Z(t),
+where Z(t) is a N(0,1) random variable (the &amp;ldquo;diffusion&amp;rdquo; σ is a user parameter, to scale the process dispersion).
+At time n (last time) and one (or more) other chosen inner time 1&amp;lt;j&amp;lt;n (j is a program parameter) create and represent with histogram the distribution of P(t). Observe the behavior of the process for large n.
+My Solution   Code in C#
+In Disiegnagrafici We graphicate the paths and the histograms as before but for sure now we use as a random step the new formula so i made a class WN graphicate ormalpaths and the histograms as before but for sure now we use as a random step the new formula so i made a class &amp;ldquo;NormalPathfinder&amp;rdquo; in witch i generate the list of value:
+public NormalPathfinder(int n, int m) { this.m = n; this.n = m; this.p = 0.5; this.R = new Random(); for (int i=0; i &amp;lt; m; i&#43;&#43;) { List&amp;lt;Double&amp;gt; list = createNormalList(); paths.Add(new Strade(list)); values.Add(list); } } private bool normal_Result(double p,out double ou) { double random_outcome =( R.NextDouble()&#43;R.NextDouble()); double normal_distrbAtOut; double v = R.NextDouble(); //create a value between 1 and -1  random_outcome = random_outcome - 1; //get the standard normal for that point  normal_distrbAtOut= Math.Pow(Math.E, (Math.Pow(-random_outcome, 2) / 2))/Math.Sqrt(2*Math.PI) ; //then use the other generated random  if (v &amp;lt;= normal_distrbAtOut*Math.Sqrt(2*Math.PI)) { ou = random_outcome; return true; } else { ou = 0; return false; } } private List&amp;lt;double&amp;gt; createNormalList() { List&amp;lt;double&amp;gt; normal = new List&amp;lt;double&amp;gt;(); for (int i = 0; i &amp;lt; n; i&#43;&#43;) { double j; if (normal_Result(p, out j)) normal.Add(j); else i--; } return normal; }  Here we use create also the path with a Strade object :
+//Dalla lista di valori passo ai punti ;  public Strade(List&amp;lt;double&amp;gt; values) { this.values = values; double sqrt1n = (double)1 / values.Count; Math.Sqrt(sqrt1n); double jump=0; for (int i=0; i &amp;lt; values.Count; i&#43;&#43;) { jump &#43;= (sqrt1n)*values[i]; path.Add(new PointF(i &#43; 1, (float) jump)); } }  ]]></content:encoded>
+    </item>
+    <item>
+      <title>13_A</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/week_9/13a/</link>
+      <pubDate>Thu, 28 Oct 2021 18:03:36 UT</pubDate>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/statistics-posts/week_9/13a/</guid>
+      <description>13_A assignament Request Create a distribution representation (histogram, or CDF &amp;hellip;) to represent the following:
+  Realizations taken from a Normal(0,1)
+  Realizations of the mean, obtained by averaging several times (say m times, m large) n of the above realizations
+  Realizations of the variance, obtained by averaging several times (say m times, m large) n of the above realizations
+  Realizations taken from exp(N(0,1)))</description>
+      <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
+      <content:encoded><![CDATA[13_A assignament Request Create a distribution representation (histogram, or CDF &amp;hellip;) to represent the following:
+  Realizations taken from a Normal(0,1)
+  Realizations of the mean, obtained by averaging several times (say m times, m large) n of the above realizations
+  Realizations of the variance, obtained by averaging several times (say m times, m large) n of the above realizations
+  Realizations taken from exp(N(0,1)))
+  Realizations taken from N(0,1) squared
+  Realizations taken from a (squared N(0,1)) divided by another (squared N(0,1))
+  My Solution   Code in C#
+The part in disegna Grafici in witch i call the various usefull function disgnaIstogrammi(viewPort, valueToDictionarys(n, m, index13a));  valueToDictionarys disegnaIstogrami is the same method used before for graphicate 3 Dictionary. In valueToDictionry we use the before created Distribution (see 12A ) and based also on the actual type of dstribution that we need (1 normal N(0,1),exp(N(0,1),squared normal or 1 squared normal divided by another one ) to create the realization, the mean and variance distributions:
+disgnaIstogrammi(viewPort, valueToDictionarys(n, m, index13a)); public Tuple&amp;lt;Dictionary&amp;lt;double, int&amp;gt;, Dictionary&amp;lt;decimal, int&amp;gt;, Dictionary&amp;lt;decimal, int&amp;gt;&amp;gt; valueToDictionarys(int m, int n, int index13a) { Dictionary&amp;lt;double, List&amp;lt;double&amp;gt;&amp;gt; randomvalues = new Dictionary&amp;lt;double, List&amp;lt;double&amp;gt;&amp;gt;(); int i = 0; int j = 0; //calcolation of the random ditribution  for (i = 0; i &amp;lt; n; i&#43;&#43;) { List&amp;lt;Double&amp;gt; tmp = new List&amp;lt;double&amp;gt;(); tmp = distrubution.values[i]; randomvalues.Add(i, tmp); } //controllo se è da fare exp squred o squared/ squared  if (index13a != 0) { for (i = 0; i &amp;lt; n; i&#43;&#43;) for (j = 0; j &amp;lt; m; j&#43;&#43;) { if (index13a == 1) randomvalues[i][j] = Math.Pow(Math.E, randomvalues[i][j]); if (index13a == 2) randomvalues[i][j] = Math.Pow(randomvalues[i][j], 2); if (index13a == 3) randomvalues[i][j] = Math.Pow(randomvalues[i][j], 2); } if (index13a == 3) { NormalPathfinder distribution2 = new NormalPathfinder(n, m); Dictionary&amp;lt;double, List&amp;lt;double&amp;gt;&amp;gt; otherones = new Dictionary&amp;lt;double, List&amp;lt;double&amp;gt;&amp;gt;(); for (i = 0; i &amp;lt; n; i&#43;&#43;) { List&amp;lt;Double&amp;gt; tmp = new List&amp;lt;double&amp;gt;(); tmp = distribution2.values[i]; otherones.Add(i, tmp); for (j = 0; j &amp;lt; m; j&#43;&#43;) { otherones[i][j]= Math.Pow(otherones[i][j], 2); randomvalues[i][j] = randomvalues[i][j] / otherones[i][j]; } } } } Dictionary&amp;lt;double, int&amp;gt; randomdistrib = new Dictionary&amp;lt;double, int&amp;gt;(); Dictionary&amp;lt;decimal, int&amp;gt; meanValues = new Dictionary&amp;lt;decimal, int&amp;gt;(); Dictionary&amp;lt;decimal, int&amp;gt; varValues = new Dictionary&amp;lt;decimal, int&amp;gt;(); for (double k = -1.0; k &amp;lt;= 1.0000; k = k &#43; 0.100) { foreach (var list in randomvalues) { foreach (var elem in list.Value) { if (elem &amp;gt; k &amp;amp;&amp;amp; elem &amp;lt;= (k &#43; 0.1)) { int tmp = 1; if (randomdistrib.TryGetValue(k, out tmp)) { randomdistrib.Remove(k); tmp&#43;&#43;; } randomdistrib.Add(k, tmp); } } } } foreach (var list in randomvalues) { double mean = 0; double variance = 0; foreach (var elem in list.Value) { mean = mean &#43; (elem - mean); } foreach (var elem in list.Value) { variance = variance &#43; ((elem - mean) * (elem - mean)); } mean = mean - (mean % 0.1); variance = variance - (variance % 2); int tmp2 = 1; if (meanValues.TryGetValue((decimal)mean, out tmp2)) { meanValues.Remove((decimal)mean); tmp2&#43;&#43;; } meanValues.Add((decimal)mean, tmp2); tmp2 = 1; if (varValues.TryGetValue((decimal)variance, out tmp2)) { varValues.Remove((decimal)variance); tmp2&#43;&#43;; } varValues.Add((decimal)variance, tmp2); } return new Tuple&amp;lt;Dictionary&amp;lt;double, int&amp;gt;, Dictionary&amp;lt;decimal, int&amp;gt;, Dictionary&amp;lt;decimal, int&amp;gt;&amp;gt;(randomdistrib, meanValues, varValues); }  ]]></content:encoded>
     </item>
     <item>
       <title>6_RA</title>
