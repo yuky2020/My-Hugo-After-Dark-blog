@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Nov 2021 23:59:00 UT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jan 2022 17:03:27 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/categories/statistic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>12R</title>
@@ -676,14 +676,40 @@ Code in zip(mirror)
 Form code In C# public MyFristGUI() { InitializeComponent(); t.Interval = 4; flag = new Bitmap(480, 160); g = Graphics.FromImage(flag); t.Tick &#43;= T_Tick; } Bitmap flag; Graphics g; int x = 20; int y = 20; Timer t = new Timer(); private void button1_Click(object sender, EventArgs e) { this.richTextBox1.Text = &amp;#34;button pressed&amp;#34;; } private void T_Tick(object sender, EventArgs e) { var rand2 = new Random(); g = Graphics.FromImage(flag); g.Clear(Color.White); g.DrawCircle(new Pen(Brushes.Red, 2), x, y, 20); g.FillCircle(Brushes.Red, x, y, 20); x = x&#43;rand2.Next(-10, 10); y = y&#43; rand2.Next(-10,10); if (x &amp;gt; 460) x = x - 10; if (x &amp;lt; 20) x = x &#43; 10; if (y &amp;gt; 140) y = y - 10; if (y &amp;lt; 20) y = y &#43; 10; pictureBox2.Image = flag; } private void MyFristGUI_Load(object sender, EventArgs e) { } private void button2_MouseClick(object sender, MouseEventArgs e) { var rand = new Random(); x = rand.Next(20, 460); y = rand.Next(20, 140); t.Start(); this.button2.Visible = false; this.button3.Text = &amp;#34;STOP&amp;#34;; this.button3.Visible = true; } private void button3_MouseClick(object sender, MouseEventArgs e) { t.Stop(); g.Clear(BackColor); this.button3.Visible = false; this.button2.Visible = true; pictureBox2.Image = flag; } }  ]]></content:encoded>
     </item>
     <item>
-      <title>About this section</title>
-      <link>https://www.matteobianchi.eu/statistics-posts/primo/</link>
+      <title>Map of this section</title>
+      <link>https://www.matteobianchi.eu/statistics-posts/map/</link>
       <pubDate>Thu, 26 Apr 2018 18:03:36 UT</pubDate>
       <dc:creator>Matteo Bianchi</dc:creator>
-      <guid>https://www.matteobianchi.eu/statistics-posts/primo/</guid>
-      <description>This section: I will include in this section various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.</description>
+      <guid>https://www.matteobianchi.eu/statistics-posts/map/</guid>
+      <description>This section: I have included in this section the various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+Weekly works Here you can find the work of the various week:
+Week1
+Week2
+Week3
+Week4
+Week5
+Week6
+Week7
+Week8
+Week9
+Final mini thesis My final mini-thesis on the CTL can be found at:CTL-studies.
+Latex source code of this will be disclosed after the end of my exam.</description>
       <category domain="https://www.matteobianchi.eu/categories/statistic">Statistic</category>
-      <content:encoded><![CDATA[This section: I will include in this section various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+      <content:encoded><![CDATA[This section: I have included in this section the various research and materials about the course of statistics held at Sapienza for Cybersecurity Master.
+Weekly works Here you can find the work of the various week:
+Week1
+Week2
+Week3
+Week4
+Week5
+Week6
+Week7
+Week8
+Week9
+Final mini thesis My final mini-thesis on the CTL can be found at:CTL-studies.
+Latex source code of this will be disclosed after the end of my exam.
+Other info For any other info you can contact me at yuky2020@gmail.com
+The git for the VS projects https://github.com/yuky2020/Statistics-Pratical-LABS
 ]]></content:encoded>
     </item>
   </channel>

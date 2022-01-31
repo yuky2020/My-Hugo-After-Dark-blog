@@ -54,9 +54,6 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   weight = 1
   
 [[params.layout.home.section]]
-  type = "posts"
-  weight = 2
-[[params.layout.home.section]]
   type = "UNI_Note"
   limit=6
   weight = 3
@@ -101,6 +98,12 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   weight = 18
   identifier = "HomeSensor"
   url = "/homesensor/"  
+
+[[menu.main]]
+  name = "PLAYLISTS"
+  weight = 18
+  identifier = "playlists"
+  url = "/playlists/"
 
 
 

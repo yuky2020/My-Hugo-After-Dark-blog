@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Nov 2021 23:59:00 UT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jan 2022 17:03:27 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Statistics-posts</title>
@@ -55,6 +55,15 @@ Current onboard sensor temperature = 23 Celsius
 Current onboard sensor humidity = 48 %
 Current barometer temperature = 24 Celsius
 Current barometer pressure = 100336 pascal
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.matteobianchi.eu/playlists/</link>
+      <dc:creator>Matteo Bianchi</dc:creator>
+      <guid>https://www.matteobianchi.eu/playlists/</guid>
+      <description>My playlists:  My playlists:</description>
+      <content:encoded><![CDATA[My playlists:  My playlists:
 ]]></content:encoded>
     </item>
     <item>
