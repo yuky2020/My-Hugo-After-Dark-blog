@@ -120,10 +120,7 @@ shift to the next left node.
 * 6 END DO
 
 Several special cases may arise such as x[j] smaller or larger than any of the sample from the previous block. A lot
-of the code is devoted to handling such special cases. However, for the sake of clarity, these special cases are not
-shown in the outline above. Interested readers must consult the documentation of the C code (c.f., Appendix B) to
-understand how these special cases are handled
-
+of the code is devoted to handling such special cases. 
 
 
 ![Median algo](images/10.png)
