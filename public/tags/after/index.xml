@@ -12,7 +12,7 @@
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.80.0)</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 31 Jan 2022 17:03:27 UT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Feb 2022 22:35:58 UT</lastBuildDate>
     <atom:link href="https://www.matteobianchi.eu/tags/after/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>12R</title>
@@ -229,7 +229,7 @@ Inputs to the code: • X : the sequence x[k], k = 0, . . . , N − 1. • M : T
   4 Find the element n0 of checkssuch that the sample in the corresponding node is nearest to the node containing the median (for M odd) or the first member of the pair which needs to be averaged (for M even). This element will provide a fast access to the node containing the samples needed to compute the median. This is necessary because we are dealing with a linked list and not an array that can be randomly accessed.
   5 FOR j = M TO N − 1 DO
  (a) Get sample x[j]. (b) Locate the element pj of checks such that C[pj ] ≤ x[j] &amp;lt; C[pj &#43; 1]. (c) Start from the node checks[pj ] and follow the Next Sorted link until a node is found such that the sample value h it contains satisfies x[j] ≤ h. We have thus found the exact place where the new sample x[j] must be inserted. The next few steps find out the checkpoints that are bracketed by x[j] and the sample to be deleted, x[j − M]. When the corresponding nodes are respectively inserted and deleted from the list, the bracketed checlpoints must be shifted to adjacent nodes. (d) Consider the node containing the first element of the sequential list. That sample will be x[j − M]. (e) Find elements q and p of checks such that i. If x[j − M] &amp;lt; x[j] x(j − M) &amp;lt; C[q] &amp;lt; . . . &amp;lt; C[p] &amp;lt; x[j] ii. else if x[j − M] &amp;gt; x[j] x[j] &amp;lt; C[p &#43; 1] &amp;lt; . . . &amp;lt; C[q] &amp;lt; x[j − M]. iii. else if x[j − M] == x[j] Do nothing. No shifting of checkpoints required since in this case all samples in the sorted list between x[j] and x[j − M] must be equal to x[j] = x[j − M]. (f) Shift the checkpoints found in step 5e. i. If x[j − M] &amp;lt; x[j] Shift each pointer checks[k], k ∈ [q, p], to point to the next right node (i.e., higher in sorted order). ii. Else shift to the next left node. (g) Delete node containing x[j − M] from the linked list (repair the links between the nodes adjacent to it). (h) Rewrite the data in this node by x[j]. (i) Insert this node before the node containing h. (j) Follow Next Sorted link from checks[n0] to get the median value.    6 END DO
-  Several special cases may arise such as x[j] smaller or larger than any of the sample from the previous block. A lot of the code is devoted to handling such special cases. However, for the sake of clarity, these special cases are not shown in the outline above. Interested readers must consult the documentation of the C code (c.f., Appendix B) to understand how these special cases are handled
+  Several special cases may arise such as x[j] smaller or larger than any of the sample from the previous block. A lot of the code is devoted to handling such special cases.
 [1]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://dcc-backup.ligo.org/public/0027/T030168/000/T030168-00.pdf&amp;quot; [2]&amp;ldquo;url&amp;rdquo;,&amp;ldquo;https://it.wikipedia.org/wiki/Mediana_(statistica)#Definizione_e_calcolo&amp;quot;
 ]]></content:encoded>
     </item>
