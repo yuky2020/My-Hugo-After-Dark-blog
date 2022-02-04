@@ -37,7 +37,7 @@ Create  a distribution representation (histogram, or CDF ...) to represent the f
 
 ### My Solution
 
-{{< youtube UaO_tyuwBZE >}}
+{{< youtube agkC-X-HTYY>}}
 
 
 [Code in C#](https://github.com/yuky2020/Statistics-Pratical-LABS/tree/main/Assignment11/C%23/BernulliGraphics)
