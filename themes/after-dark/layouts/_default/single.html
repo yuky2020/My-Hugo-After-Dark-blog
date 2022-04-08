@@ -22,6 +22,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {{- end }}
 {{ define "header" }}
   {{ partial "masthead.html" . }}
+  {{ partial "google/analytics" . }}
+  {{ partial "google/ad" . }}
+
 {{ end }}
 {{ define "main" }}
   <header>
@@ -32,7 +35,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {{ define "footer" }}
   <small class="muted">
    <!---  {{ partial "copyright-notice.html" . }} --->
-    {{ partial "google/analytics" . }}
-    {{ partial "google/ad" . }}
-  </small>
+   </small>
 {{ end }}
