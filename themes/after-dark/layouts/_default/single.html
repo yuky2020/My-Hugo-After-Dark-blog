@@ -31,6 +31,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {{ end }}
 {{ define "footer" }}
   <small class="muted">
-    {{ partial "copyright-notice.html" . }}
+   <!---  {{ partial "copyright-notice.html" . }} --->
+    {{ partial "google/analytics" . }}
+    {{ partial "google/ad" . }}
   </small>
 {{ end }}
