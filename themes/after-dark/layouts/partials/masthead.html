@@ -22,9 +22,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   {{ if or (ne $name "main") (and (eq $name "main") $is_section_menu_enabled) }}
     {{ with $.Site.Params.layout.menu }}
       {{ $settings := (index . $name) | default dict }}
-      {{ partial "components/navmenu.html" (dict "name" $name "entries" $entries "settings" $settings "page" $)}}
+  {{ partial "components/navmenu.html" (dict "name" $name "entries" $entries "settings" $settings "page" $)}}
+  {{ partial "google/analytics" . }}
+  {{ partial "google/ad" . }}
+
     {{ else }}
-      {{ partial "components/navmenu.html" (dict "name" $name "entries" $entries "settings" dict "page" $)}}
+  {{ partial "components/navmenu.html" (dict "name" $name "entries" $entries "settings" dict "page" $)}}
+  {{ partial "google/analytics" . }}
+  {{ partial "google/ad" . }}
+
     {{ end }}
   {{ end }}
 {{ end }}
